@@ -63,7 +63,7 @@ export default {
 			flex-direction: row;
 			width: 100%;
 			height: 3.5rem;
-			position: absolute;
+			position: fixed;
 			bottom: 0;
 		}
 	}
