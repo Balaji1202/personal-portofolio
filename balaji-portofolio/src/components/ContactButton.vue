@@ -65,11 +65,12 @@
 		}
 	}
 	@media (max-width: 450px) {
-		.contact-button {
-			padding-top: 0.7rem;
-		}
 		.contact-div {
 			padding: 0.5rem;
+		}
+		.contact-button {
+			margin-left: 0;
+			padding: 0;
 		}
 		.contact-svg {
 			width: 1.5rem;

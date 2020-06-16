@@ -114,8 +114,9 @@ export default {
 @media(max-width: 450px) {
 	.profile-handler-row {
 		position: relative;
-		margin-top: 0.3rem;
+		margin-top: 0;
 		bottom: 0;
+		padding-bottom: 0rem;
 	}
 }
 </style>

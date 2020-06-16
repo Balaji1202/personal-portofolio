@@ -46,9 +46,11 @@ export default {
 		flex-direction: column;
 		align-items: flex-start;
 		overflow: auto;
+		background: white;
 	}
 	.col2 {
 		flex: 15 0 auto;
+		background: red;
 	}
 	@media (max-width: 1000px) {
 		.col1 {
@@ -59,6 +61,10 @@ export default {
 	@media (max-width: 450px) {
 		.col1 {
 			flex-direction: row;
+			width: 100%;
+			height: 3.5rem;
+			position: absolute;
+			bottom: 0;
 		}
 	}
 </style>
