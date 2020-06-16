@@ -1,74 +1,58 @@
 <template>
-	<div id="left-navigation" class="left-navigation">
-		<div class="left-navigation-content">
-			<PageLogo/>
-			<NavigationBar/>
-			<ContactButton/>
-			<ProfileHandler/>
+		<div class="navigation-column">
+			<div class="navigation-wrapper navigations">
+				<PageLogo/>
+				<NavigationBar/>
+				<ContactButton/>
+				<ProfileHandler/>
+			</div>
 		</div>
-	</div>
 </template>
 
 <script>
+import PageLogo from './PageLogo.vue';
 import NavigationBar from './NavigationBar.vue';
 import ProfileHandler from './ProfileHandler.vue';
-import PageLogo from './PageLogo.vue';
-import ContactButton from './ContactButton.vue';
+import ContactButton from './ContactButton.vue'
 export default {
 	components: {
-		ProfileHandler,
-		NavigationBar,
 		PageLogo,
+		NavigationBar,
+		ProfileHandler,
 		ContactButton
 	}
 }
 </script>
 
 <style scoped>
-	.left-navigation {
+.navigation-column {
+	margin-left: 29%;
+	height: 100vh;
+	font-size: 1.18rem;
+}
+.navigation-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+@media (max-width: 1000px) {
+	.navigation-column {
+		margin-left: 0rem;
+	}
+}
+@media (max-width: 450px) {
+	.navigation-wrapper {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
 		position: fixed;
-		overflow: auto;
-		display: flex;
-		flex-direction: column;
-		width: 22.7rem;
-		height: 100vh;
-		box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
-		transition: 0.1s;
-		font-size: 1.2rem;
+		margin: 0;
+		height: 60px;
+		width: 100%;
+		bottom: 0;
+		overflow-y: hidden;
 	}
-	.left-navigation-content {
-		margin: 0.3rem 0 0 6.5rem;
+	.sub-navs {
+		display: none;
 	}
-
-	@media (max-width: 1200px) {
-		.left-navigation-content {
-			margin: 0.3rem 0 0 3rem;
-		}
-		.left-navigation {
-			width: 300px;
-			transition: 0.1s;
-		}
-	}
-	@media (max-width: 1000px) {
-		.left-navigation-content {
-			margin: 0.3rem 0 0 0.7rem;
-		}
-		.left-navigation {
-			width: 80px;
-			transition: 0.1s;
-		}
-	}
-	@media (max-width: 450px) {
-		.left-navigation {
-			flex-direction: row;
-			position: fixed;
-			height: 60px;
-			width: 100%;
-			bottom: 0px;
-		}
-		.left-navigation-content {
-			display: flex;
-			margin: 0;
-		}
-	}
+}
 </style>

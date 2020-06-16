@@ -92,14 +92,14 @@ export default {
 		text-decoration: none;
 		display: flex;
 		align-items: center;
-		padding: 0.3rem;
+		padding: 0.15rem 0.5rem 0.2rem 0.3rem;
 		transition: 0.5s;
 		border-radius: 9999px;
 		color: #14171a;
 	}
 	.nav-text {
 		font-weight: bold;
-		padding: 0 1rem 0 0.85rem;
+		padding: 0.2rem 1rem 0 0.8rem;
 	}
 	.link-hover-style {
 		background-color: rgba(29, 161, 242, 0.1);

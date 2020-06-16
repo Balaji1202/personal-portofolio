@@ -1,4 +1,4 @@
-# balaji-portofolio
+# twitter-recreation-portofolio
 
 ## Project setup
 ```

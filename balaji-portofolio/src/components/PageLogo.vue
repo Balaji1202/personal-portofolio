@@ -16,6 +16,7 @@
 		cursor: pointer;
 		padding: 0.7rem;
 		border-radius: 9999px;
+		padding-top: 0.8rem;
 	}
 	.main-logo:hover {
 		background-color: rgba(29, 161, 242, 0.1);

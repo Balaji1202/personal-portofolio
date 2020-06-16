@@ -18,7 +18,6 @@
 	.contact-button {
 		padding: 1rem 0;
 		width: 13.5rem;
-		margin-left: 0.5rem;
 	}
 	.contact-link {
 		text-decoration: none;
@@ -56,7 +55,7 @@
 		}
 		.contact-button {
 			width: fit-content;
-			margin-left: 0.4rem;
+			margin-left: 0.2rem;
 		}
 		.contact-div {
 			padding: 0.7rem;
