@@ -1,15 +1,17 @@
 <template>
 	<div class="app">
 		<div class="col1"><NavigationPanel/></div>
-		<div class="col2"></div>
+		<div class="col2"><MainPanel/></div>
 	</div>
 </template>
 
 <script>
 import NavigationPanel from './components/NavigationPanel.vue';
+import MainPanel from './components/MainPanel.vue';
 export default {
   components: {
-		NavigationPanel
+		NavigationPanel,
+		MainPanel
 	},
 	methods: {
 		checkIsMobile() {
@@ -38,9 +40,10 @@ export default {
 		display: flex;
 		flex-direction: row;
 		height: 100vh;
+		position: fixed;
 	}
 	.col1 {
-		flex: 1 0 18.2rem;
+		flex: 1 0 22.7rem;
 		box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
 		display: flex;
 		flex-direction: column;
@@ -50,7 +53,7 @@ export default {
 	}
 	.col2 {
 		flex: 15 0 auto;
-		background: red;
+		overflow: auto;
 	}
 	@media (max-width: 1000px) {
 		.col1 {
@@ -59,12 +62,12 @@ export default {
 		}
 	}
 	@media (max-width: 450px) {
+		.app {
+			flex-direction: column-reverse;
+		}
 		.col1 {
+			flex: 0 0 3.7rem;
 			flex-direction: row;
-			width: 100%;
-			height: 3.5rem;
-			position: fixed;
-			bottom: 0;
 		}
 	}
 </style>

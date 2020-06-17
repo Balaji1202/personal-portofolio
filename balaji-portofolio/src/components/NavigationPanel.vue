@@ -155,7 +155,6 @@ export default {
 <style scoped>
 .navigation-column {
 	margin-left: 29%;
-	height: 100vh;
 	font-size: 1.18rem;
 }
 .navigation-wrapper {
@@ -190,9 +189,6 @@ export default {
 	}
 	.sub-navs {
 		display: none;
-	}
-	.navigations {
-		flex-direction: row;
 	}
 	.sub-navs {
 		display: none;

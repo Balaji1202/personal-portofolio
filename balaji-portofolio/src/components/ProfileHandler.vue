@@ -40,6 +40,9 @@ export default {
 			}
 		},
 		applyHoverStyle(eventTarget) {
+			if(!eventTarget || eventTarget.classList.contains('link-active-style') || this.$root.isMobile) {
+				return;
+			}
 			eventTarget.classList.add('profile-handler-hover');
 		},
 		removeHoverStyle(eventTarget) {

@@ -33,10 +33,10 @@ export default {
 
 		},
 		applyHoverStyles(eventTarget) {
-			eventTarget.classList.add('link-hover-style');
-			if(eventTarget.classList.contains('link-active-style')) {
+			if(!eventTarget || this.$root.isMobile) {
 				return;
 			}
+			eventTarget.classList.add('link-hover-style');
 			eventTarget.querySelectorAll('.svg-theme-text').forEach(node => {
 				node.classList.add('svg-theme-active');
 			});
@@ -92,7 +92,7 @@ export default {
 		text-decoration: none;
 		display: flex;
 		align-items: center;
-		padding: 0.15rem 0.5rem 0.2rem 0.3rem;
+		padding: 0.17rem;
 		transition: 0.5s;
 		border-radius: 9999px;
 		color: #14171a;
