@@ -81,8 +81,8 @@ export default {
 		align-content: center;
 	}
 	.theme-switcher-img {
-		width: 4rem;
-		height: 1.6rem;
+		height: 2.5rem;
+		padding: 0.5rem;
 		animation: rotate-switcher 3s linear infinite;
 		animation-play-state: paused;
 	}

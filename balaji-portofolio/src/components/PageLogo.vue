@@ -28,6 +28,7 @@
 	}
 	.main-logo:hover {
 		background-color: var(--theme-base-hover);
+		transition: 0.5s;
 	}
 	@media (max-width: 500px) {
 		.main-logo {

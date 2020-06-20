@@ -47,7 +47,6 @@ export default {
 		height: 100vh;
 		width: 100vw;
 		position: fixed;
-		transition: 0s;
 	}
 	.col1 {
 		flex: 1 0 22.7rem;
@@ -56,7 +55,8 @@ export default {
 		flex-direction: column;
 		align-items: flex-start;
 		overflow: auto;
-		background: var(--theme-base-body);
+		background-color: var(--theme-base-body);
+		transition: 0.5s;
 	}
 	.col2 {
 		flex: 15 0 27.5rem;
@@ -98,6 +98,9 @@ export default {
 	@media (max-width: 500px) {
 		.app {
 			flex-direction: column-reverse;
+		}
+		.main-col {
+			display: initial;
 		}
 		.col1 {
 			flex: 0 0 3.7rem;

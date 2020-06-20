@@ -104,6 +104,7 @@ export default {
 	.link-hover-style {
 		background-color: var(--theme-base-hover);
 		color: rgb(29, 161, 242);
+		transition: 0.5s;
 	}
 	.link-active-style {
 		color: rgb(29, 161, 242);

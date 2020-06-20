@@ -34,6 +34,7 @@
 	}
 	.contact-div:hover {
 		background-color: rgb(26, 145, 218);
+		transition: 0.5s;
 	}
 	.contact-text {
 		color: white;

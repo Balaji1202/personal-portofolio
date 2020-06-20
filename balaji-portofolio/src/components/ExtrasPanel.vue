@@ -31,6 +31,8 @@ export default {
 		overflow: auto;
 	}
 	.main-content {
+		background-color: var(--theme-base-body);
+		transition: 0.5s;
 	}
 	.header-image {
 		width: 100%;

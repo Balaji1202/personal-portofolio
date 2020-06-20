@@ -34,7 +34,7 @@ export default {
 		height: 3.5rem;
 		white-space: nowrap;
 		overflow: hidden;
-		text-overflow: ellipsis;
+		transition: 0.5s;
 	}
 	.header-panel{
 		display: flex;
@@ -52,7 +52,7 @@ export default {
 	.main-text {
 		display: flex;
 		flex-direction: column;
-		margin-left: 1.5rem;
+		margin-left: 0.5rem;
 		color: var(--theme-base-text);
 	}
 	.sub-text {

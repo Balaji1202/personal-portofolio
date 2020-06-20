@@ -160,6 +160,9 @@ export default {
 .navigation-wrapper {
 	display: flex;
 	flex-direction: column;
+	background-color: var(--theme-base-body);
+	z-index: 2;
+	transition: 0.5s;
 }
 .nav-logo {
 	width: 2.5rem;
@@ -181,14 +184,15 @@ export default {
 	}
 }
 @media (max-width: 500px) {
+	.navigation-column {
+		width: 100%;
+	}
 	.navigation-wrapper {
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		position: fixed;
 		margin: 0;
 		height: 60px;
-		width: 100%;
 		bottom: 0;
 		overflow-y: hidden;
 	}
