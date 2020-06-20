@@ -186,6 +186,7 @@ export default {
 @media (max-width: 500px) {
 	.navigation-column {
 		width: 100%;
+		position: fixed;
 	}
 	.navigation-wrapper {
 		flex-direction: row;
