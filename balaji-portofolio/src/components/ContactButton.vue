@@ -31,11 +31,9 @@
 		border-radius: 9999px;
 		padding: 0.85rem;
 		text-align: center;
-		transition: 0.5s;
 	}
 	.contact-div:hover {
 		background-color: rgb(26, 145, 218);
-		transition: 0.5s;
 	}
 	.contact-text {
 		color: white;
@@ -47,7 +45,7 @@
 		height: 1.7rem;
 		display: none;
 	}
-	@media (max-width: 1000px) {
+	@media (max-width: 1050px) {
 		.contact-text {
 			display: none;
 			padding: 0;
@@ -64,7 +62,7 @@
 			display: block;
 		}
 	}
-	@media (max-width: 450px) {
+	@media (max-width: 500px) {
 		.contact-div {
 			padding: 0.5rem;
 		}

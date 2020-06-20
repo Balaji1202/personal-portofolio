@@ -70,11 +70,10 @@ export default {
 	padding: 0.5rem;
 	cursor: pointer;
 	text-decoration: none;
-	color: #2c3e50;
+	color: var(--theme-base-text);
 }
 .profile-handler-hover {
-	background-color: rgba(29, 161, 242, 0.1);
-	transition: 0.5s;
+	background-color: var(--theme-base-hover);
 }
 .profile-image {
 	width: 2.5rem;
@@ -99,7 +98,7 @@ export default {
 .profile-link{
 	padding: 0 0.2rem 0 1.7rem;
 }
-@media (max-width: 1000px) and (min-width: 0px) {
+@media (max-width: 1050px) and (min-width: 0px) {
 	.profile-text {
 		display: none;
 	}
@@ -114,7 +113,7 @@ export default {
 		padding-bottom: 1rem;
 	}
 }
-@media(max-width: 450px) {
+@media(max-width: 500px) {
 	.profile-handler-row {
 		position: relative;
 		margin-top: 0;

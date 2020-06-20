@@ -3,11 +3,13 @@
 		class="theme-switcher nav-links-list">
 		<a class="links">
 			<img
+				@click="switchTheme"
 				@mouseover="startRotation"
 				@mouseout="stopRotation"
 				v-if="this.theme==='light'"
 				src="./../assets/moon.svg" alt="theme" class="theme-switcher-img">
 			<img
+				@click="switchTheme"
 				@mouseover="startRotation"
 				@mouseout="stopRotation"
 				v-else
@@ -18,6 +20,13 @@
 
 <script>
 export default {
+	data() {
+		return {
+			theme: 'light',
+			otherTheme: 'dark',
+			darkTheme: false
+		}
+	},
 	methods: {
 		stopRotation(event) {
 			event.currentTarget.classList.remove('theme-switcher-rotating');
@@ -37,24 +46,10 @@ export default {
 			let theme = getComputedStyle(root).getPropertyValue(display);
 			root.style.setProperty('--theme-base-text', theme);
 		},
-		switchImageThemes() {
-			let textDisplay = this.darkTheme ? 'white': 'black'
-			let bodyDisplay = this.darkTheme ? 'black': 'white'
-			document.getElementById('ham-line1').setAttribute('fill', textDisplay);
-			document.getElementById('ham-line2').setAttribute('fill', textDisplay);
-			document.getElementById('ham-line3').setAttribute('fill', textDisplay);
-			document.getElementById('footer-text').setAttribute('fill', textDisplay);
-			document.getElementById('scroll-arrow').setAttribute('fill', textDisplay);
-			document.getElementById('top-code').children.forEach(node => node.setAttribute('fill', textDisplay));
-			document.getElementById('bottom-code').children.forEach(node => node.setAttribute('fill', textDisplay));
-			document.getElementById('class-code').setAttribute('fill', textDisplay);
-			document.getElementById('laptop-screen').setAttribute('fill', bodyDisplay);
-			document.getElementById('laptop-back').setAttribute('fill', bodyDisplay);
-			document.querySelectorAll('#instagram-2').forEach(node => node.setAttribute('fill', textDisplay));
-			document.querySelectorAll('#instagram-1').forEach(node => node.setAttribute('fill', textDisplay));
-			document.querySelectorAll('#linkedin').forEach(node => node.setAttribute('fill', textDisplay));
-			document.querySelectorAll('#facebook').forEach(node => node.setAttribute('fill', textDisplay));
-			document.querySelectorAll('#twitter').forEach(node => node.setAttribute('fill', textDisplay));
+		switchHoverTheme(root) {
+			let display = `--${this.theme}-theme-hover`;
+			let theme = getComputedStyle(root).getPropertyValue(display);
+			root.style.setProperty('--theme-base-hover', theme);
 		},
 		switchBoxShadows(root) {
 			let shadow = `--shadow-theme-${this.theme}`;
@@ -72,8 +67,7 @@ export default {
 			this.otherTheme = tempTheme
 			this.switchTextTheme(root);
 			this.switchBodyTheme(root);
-			this.switchBoxShadows(root);
-			this.switchImageThemes();
+			this.switchHoverTheme(root);
 		}
 	},
 }
@@ -87,8 +81,8 @@ export default {
 		align-content: center;
 	}
 	.theme-switcher-img {
-		width: 5rem;
-		height: 2rem;
+		width: 4rem;
+		height: 1.6rem;
 		animation: rotate-switcher 3s linear infinite;
 		animation-play-state: paused;
 	}

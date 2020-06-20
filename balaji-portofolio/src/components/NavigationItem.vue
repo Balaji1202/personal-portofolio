@@ -87,33 +87,52 @@ export default {
 		align-items: center;
 		justify-content: space-between;
 		padding: 0.3rem 0.3rem 0.3rem 0.1rem;
+		margin-left: -0.6rem;
 	}
 	.nav-link {
 		text-decoration: none;
 		display: flex;
 		align-items: center;
-		padding: 0.17rem;
-		transition: 0.5s;
+		padding: 0.17rem 0.17rem 0.17rem 0.8rem;
 		border-radius: 9999px;
-		color: #14171a;
+		color: var(--theme-base-text);
 	}
 	.nav-text {
 		font-weight: bold;
-		padding: 0.2rem 1rem 0 0.8rem;
+		padding: 0 1.5rem 0 0.8rem;
 	}
 	.link-hover-style {
-		background-color: rgba(29, 161, 242, 0.1);
-		transition: 0.5s;
+		background-color: var(--theme-base-hover);
 		color: rgb(29, 161, 242);
 	}
 	.link-active-style {
 		color: rgb(29, 161, 242);
 	}
-	@media (max-width: 1000px) {
+	@media (max-width: 1050px) {
 		.nav-text {
 			display: none;
 			padding: 0;
 			font-size: 0;
+		}
+		.nav-items {
+			margin-left: 0;
+		}
+		.nav-link {
+			padding: 0.17rem;
+		}
+		.nav-text {
+			padding: 0.2 1.5rem 0 0.8rem;
+		}
+	}
+	@media (max-width: 500px) {
+		.nav-items {
+			margin-left: 0;
+		}
+		.nav-link {
+			padding: 0.17rem;
+		}
+		.nav-text {
+			padding: 0.2 1.5rem 0 0.8rem;
 		}
 	}
 </style>

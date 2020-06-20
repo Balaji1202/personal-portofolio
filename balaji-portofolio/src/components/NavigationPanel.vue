@@ -1,6 +1,6 @@
 <template>
 		<div class="navigation-column">
-			<div class="navigation-wrapper navigations">
+			<div class="navigations navigation-wrapper">
 				<PageLogo/>
 				<NavigationItem
 					navName="Home">
@@ -170,12 +170,17 @@ export default {
 	display: flex;
 	flex-direction: column;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
+	.navigation-column {
+		margin-left: 15%;
+	}
+}
+@media (max-width: 1050px) {
 	.navigation-column {
 		margin-left: 0rem;
 	}
 }
-@media (max-width: 450px) {
+@media (max-width: 500px) {
 	.navigation-wrapper {
 		flex-direction: row;
 		justify-content: space-around;

@@ -24,13 +24,12 @@
 		padding-top: 0.7rem;
 		margin-top: 0.1rem;
 		margin-bottom: 0.2rem;
-		margin: 0.1rem 0 0.2rem 0.1rem
+		margin: 0.1rem 0 0.2rem 0.1rem;
 	}
 	.main-logo:hover {
-		background-color: rgba(29, 161, 242, 0.1);
-		transition: 0.5s;
+		background-color: var(--theme-base-hover);
 	}
-	@media (max-width: 450px) {
+	@media (max-width: 500px) {
 		.main-logo {
 			margin-top: 0.4rem
 		}	

@@ -29,14 +29,15 @@ export default {
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		background-color: white;
-		position: fixed;
-		width: 600px;
+		background-color: var(--theme-base-body);
+		width: 100%;
 		height: 3.5rem;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 	.header-panel{
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
 		width: 100%;
 	}
@@ -44,24 +45,27 @@ export default {
 		padding: 0.3rem;
 	}
 	.header-avatar {
-		width: 50px;
-		height: 50px;
+		width: 40px;
+		height: 40px;
 		border-radius: 9999px;
 	}
 	.main-text {
 		display: flex;
 		flex-direction: column;
-		margin-left: -18rem;
+		margin-left: 1.5rem;
+		color: var(--theme-base-text);
 	}
 	.sub-text {
-		padding: 0.1rem;
+		padding: 0.2rem 0;
 		font-size: 0.8rem;
+		color: rgb(101, 119, 134);
 	}
 	.name-text {
-		padding: 0.1rem;
+		padding: 0.1rem 0;
 		font-weight: bold;
-		font-size: 1.2rem;
+		font-size: 1.15rem;
 	}
 	.theme-switcher {
+		margin-left: auto;
 	}
 </style>
