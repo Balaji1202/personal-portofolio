@@ -184,10 +184,6 @@ export default {
 	}
 }
 @media (max-width: 500px) {
-	.navigation-column {
-		width: 100%;
-		position: fixed;
-	}
 	.navigation-wrapper {
 		flex-direction: row;
 		justify-content: space-around;
@@ -195,6 +191,8 @@ export default {
 		margin: 0;
 		height: 60px;
 		bottom: 0;
+		width: 100%;
+		position: fixed;
 		overflow-y: hidden;
 	}
 	.sub-navs {

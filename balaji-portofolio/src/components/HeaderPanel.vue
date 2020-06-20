@@ -31,7 +31,7 @@ export default {
 		align-items: center;
 		background-color: var(--theme-base-body);
 		width: 100%;
-		height: 3.5rem;
+		height: 3rem;
 		white-space: nowrap;
 		overflow: hidden;
 		transition: 0.5s;
@@ -56,14 +56,14 @@ export default {
 		color: var(--theme-base-text);
 	}
 	.sub-text {
-		padding: 0.2rem 0;
-		font-size: 0.8rem;
+		padding: 0.1rem 0 0.2rem 0;
+		font-size: 0.7rem;
 		color: rgb(101, 119, 134);
 	}
 	.name-text {
 		padding: 0.1rem 0;
 		font-weight: bold;
-		font-size: 1.15rem;
+		font-size: 1.05rem;
 	}
 	.theme-switcher {
 		margin-left: auto;
