@@ -34,7 +34,6 @@ export default {
 	.main-panel {
 		display: flex;
 		flex-direction: column;
-		overflow: auto;
 	}
 	.main-content {
 		background-color: var(--theme-base-body);

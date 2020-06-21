@@ -1,25 +1,18 @@
 <template>
-	<div class="main-panel">
+	<div class="main-panel" id="More">
 		<div class="main-content">
-			<HeaderPanel/>
 			<img class="header-image" src="./../assets/header-background.jpg" alt="">
-			<HeaderPanel/>
 			<img class="header-image" src="./../assets/header-background.jpg" alt="">
-			<HeaderPanel/>
 			<img class="header-image" src="./../assets/header-background.jpg" alt="">
-			<HeaderPanel/>
 			<img class="header-image" src="./../assets/header-background.jpg" alt="">
-			<HeaderPanel/>
 			<img class="header-image" src="./../assets/header-background.jpg" alt="">
 		</div>
 	</div>
 </template>
 
 <script>
-import HeaderPanel from './HeaderPanel.vue'
 export default {
 	components: {
-		HeaderPanel
 	}
 }
 </script>

@@ -4,7 +4,7 @@
 			@click="hookFunction"
 			@mouseover="hookFunction"
 			@mouseout="hookFunction"
-			:id="this.navName + '-navigation'" class="nav-link" :href="'#'+this.navName">
+			:id="this.href + '-navigation'" class="nav-link" :href="'#'+this.href">
 			<slot></slot>
 			<span class="nav-text">{{this.navName}}</span>
 		</a>
@@ -15,6 +15,10 @@
 export default {
 	props: {
 		navName: {
+			type: String,
+			required: true
+		},
+		href: {
 			type: String,
 			required: true
 		}
@@ -37,6 +41,9 @@ export default {
 				return;
 			}
 			eventTarget.classList.add('link-hover-style');
+			if(eventTarget.classList.contains('link-active-style')) {
+				return;
+			}
 			eventTarget.querySelectorAll('.svg-theme-text').forEach(node => {
 				node.classList.add('svg-theme-active');
 			});

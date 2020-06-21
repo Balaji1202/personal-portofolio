@@ -57,17 +57,22 @@ export default {
 		overflow: auto;
 		background-color: var(--theme-base-body);
 		transition: 0.5s;
+		scroll-behavior: smooth;
 	}
 	.col2 {
 		flex: 15 0 27.5rem;
 		border-right: 1px solid rgb(230, 236, 240);
-		background: var(--theme-base-body);
+		background-color: var(--theme-base-body);
+		transition: 0.5s;
 		overflow: auto;
+		scroll-behavior: smooth;
 	}
 	.col3 {
 		flex: 15 0 20rem;
-		background: var(--theme-base-body);
+		background-color: var(--theme-base-body);
+		transition: 0.5s;
 		overflow: auto;
+		scroll-behavior: smooth;
 	}
 	.main-col {
 		display: flex;
