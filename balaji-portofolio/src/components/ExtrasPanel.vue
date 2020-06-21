@@ -1,11 +1,6 @@
 <template>
 	<div class="main-panel" id="More">
 		<div class="main-content">
-			<img class="header-image" src="./../assets/header-background.jpg" alt="">
-			<img class="header-image" src="./../assets/header-background.jpg" alt="">
-			<img class="header-image" src="./../assets/header-background.jpg" alt="">
-			<img class="header-image" src="./../assets/header-background.jpg" alt="">
-			<img class="header-image" src="./../assets/header-background.jpg" alt="">
 		</div>
 	</div>
 </template>

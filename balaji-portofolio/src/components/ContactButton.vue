@@ -63,7 +63,7 @@
 			display: block;
 		}
 	}
-	@media (max-width: 500px) {
+	@media (max-width: 520px) {
 		.contact-div {
 			padding: 0.5rem;
 		}

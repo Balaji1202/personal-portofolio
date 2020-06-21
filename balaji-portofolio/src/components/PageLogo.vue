@@ -30,7 +30,7 @@
 		background-color: var(--theme-base-hover);
 		transition: 0.5s;
 	}
-	@media (max-width: 500px) {
+	@media (max-width: 520px) {
 		.main-logo {
 			margin-top: 0.4rem
 		}	

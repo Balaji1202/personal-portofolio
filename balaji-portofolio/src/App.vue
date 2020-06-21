@@ -100,7 +100,7 @@ export default {
 			overflow: initial;
 		}
 	}
-	@media (max-width: 500px) {
+	@media (max-width: 520px) {
 		.app {
 			flex-direction: column-reverse;
 		}

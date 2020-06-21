@@ -190,7 +190,7 @@ export default {
 		margin-left: 0rem;
 	}
 }
-@media (max-width: 500px) {
+@media (max-width: 520px) {
 	.navigation-wrapper {
 		flex-direction: row;
 		justify-content: space-around;

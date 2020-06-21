@@ -95,6 +95,7 @@ export default {
 .profile-handle {
 	font-size: 0.9rem;
 	padding: 0.1rem;
+	color: rgb(101, 119, 134);
 }
 .profile-link{
 	padding: 0 0.2rem 0 1.7rem;
@@ -117,7 +118,7 @@ export default {
 		padding-bottom: 1rem;
 	}
 }
-@media(max-width: 500px) {
+@media(max-width: 520px) {
 	.profile-handler-row {
 		position: relative;
 		margin-top: 0;

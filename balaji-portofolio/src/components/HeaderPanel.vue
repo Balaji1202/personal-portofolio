@@ -31,7 +31,7 @@ export default {
 		align-items: center;
 		background-color: var(--theme-base-body);
 		width: 100%;
-		height: 3rem;
+		height: 3.2rem;
 		white-space: nowrap;
 		overflow: hidden;
 		transition: 0.5s;
@@ -63,7 +63,7 @@ export default {
 	.name-text {
 		padding: 0.1rem 0;
 		font-weight: bold;
-		font-size: 1.05rem;
+		font-size: 1.15rem;
 	}
 	.theme-switcher {
 		margin-left: auto;
