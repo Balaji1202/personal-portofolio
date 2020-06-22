@@ -116,7 +116,7 @@ export default {
 </script>
 <style scoped>
 .main-profile-info {
-	padding-left: 1rem;
+	padding: 0 1rem;
 	color: var(--theme-base-text);
 	overflow: hidden;
 	padding-bottom: 1rem;

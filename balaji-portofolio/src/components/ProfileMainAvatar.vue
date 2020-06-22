@@ -14,7 +14,6 @@
 	}
 	.main-avatar {
 		width: 40%;
-		height: 100%;
 		border-radius: 9999px;
 		border: 4px solid white;
 	}

@@ -40,7 +40,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="css">
 	.app {
 		display: flex;
 		flex-direction: row;
