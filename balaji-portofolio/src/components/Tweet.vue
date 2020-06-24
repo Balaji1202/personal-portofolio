@@ -57,7 +57,7 @@ export default {
 	flex-direction: column;
 }
 .tweet-container {
-	border-bottom: 1px solid rgb(101, 119, 134);
+	border-bottom: 1px solid rgba(101, 119, 134, 0.2);
 	padding: 1rem 0.5rem;
 	color: var(--theme-base-text);
 	display: flex;

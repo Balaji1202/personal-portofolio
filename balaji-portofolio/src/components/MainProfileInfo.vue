@@ -33,7 +33,7 @@
 				</svg>
 				<span class="profile-basic-text">Coimbatore</span>
 			</div>
-			<a href="https://balajisv.netlify.app" target="_blank" style="text-decoration: none;">
+			<a href="https://drive.google.com/file/d/1pHXb4El1q4H13CxqdCaSTe-BlX-TmsSx/view?usp=sharing" target="_blank" style="text-decoration: none;">
 				<div
 					@mouseover="hookFunction"
 					@mouseout="hookFunction"
@@ -120,7 +120,7 @@ export default {
 	color: var(--theme-base-text);
 	overflow: hidden;
 	padding-bottom: 1rem;
-	border-bottom: 1px solid rgb(101, 119, 134);
+	border-bottom: 1px solid rgba(101, 119, 134, 0.2);
 }
 .profile-text {
 	display: flex;

@@ -161,7 +161,7 @@ export default {
 
 <style scoped>
 .navigation-column {
-	margin-left: 29%;
+	margin-left: 27%;
 	font-size: 1.18rem;
 }
 .navigation-wrapper {
@@ -201,6 +201,7 @@ export default {
 		width: 100%;
 		position: fixed;
 		overflow-y: hidden;
+		border-top: 1px solid rgba(101, 119, 134, 0.1);
 	}
 	.sub-navs {
 		display: none;

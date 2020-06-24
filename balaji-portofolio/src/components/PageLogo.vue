@@ -19,11 +19,9 @@
 	.main-logo {
 		width: 3.2rem;
 		cursor: pointer;
-		padding: 0.5rem;
 		border-radius: 9999px;
+		padding: 0.5rem;
 		padding-top: 0.7rem;
-		margin-top: 0.1rem;
-		margin-bottom: 0.2rem;
 		margin: 0.1rem 0 0.2rem 0.1rem;
 	}
 	.main-logo:hover {

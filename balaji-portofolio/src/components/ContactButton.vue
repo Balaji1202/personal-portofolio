@@ -54,7 +54,6 @@
 		}
 		.contact-button {
 			width: fit-content;
-			margin-left: 0.2rem;
 		}
 		.contact-div {
 			padding: 0.7rem;

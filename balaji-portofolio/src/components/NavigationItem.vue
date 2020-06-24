@@ -94,13 +94,13 @@ export default {
 		align-items: center;
 		justify-content: space-between;
 		padding: 0.3rem 0.3rem 0.3rem 0.1rem;
-		margin-left: -0.6rem;
+		margin-left: -0.3rem;
 	}
 	.nav-link {
 		text-decoration: none;
 		display: flex;
 		align-items: center;
-		padding: 0.17rem 0.17rem 0.17rem 0.8rem;
+		padding: 0.17rem 0rem 0.17rem 0.5rem;
 		border-radius: 9999px;
 		color: var(--theme-base-text);
 	}

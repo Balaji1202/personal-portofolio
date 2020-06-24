@@ -39,6 +39,5 @@ export default {
 	color: rgb(101, 119, 134);
 	font-size: 0.8rem;
 	padding: 0.5rem;
-	padding-top: 0.7rem;
 }
 </style>

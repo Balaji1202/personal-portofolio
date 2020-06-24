@@ -50,7 +50,7 @@ export default {
 	}
 	.col1 {
 		flex: 1 0 22.7rem;
-		border-right: 1px solid rgb(230, 236, 240);
+		border-right: 1px solid rgba(230, 236, 240, 0.5);
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -61,7 +61,7 @@ export default {
 	}
 	.col2 {
 		flex: 15 0 27.5rem;
-		border-right: 1px solid rgb(230, 236, 240);
+		border-right: 1px solid rgba(230, 236, 240, 0.5);
 		background-color: var(--theme-base-body);
 		transition: 0.5s;
 		overflow: auto;

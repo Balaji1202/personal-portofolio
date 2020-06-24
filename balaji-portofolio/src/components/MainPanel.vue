@@ -13,24 +13,26 @@
 				eventDate="May 2019 - Present">
 				Front end developer Project trainee at Zoho Corporation, Chennai.
 				<br/><br/>
-				Zoho Corporation gave a kick start to my front-end career.
+				Zoho Corporation gave a head start to my front-end career.
 				<br/><br/>
 				I'm currently working in a team solving potential problems with groundbreaking, clean, and performance-oriented solutions.
 				<br/><br/>
 				I &hearts; Zoho.
 			</Tweet>
+
 			<Tweet
 				pinnedMessage="Education"
 				eventImg="education"
 				eventDate="2016 - 2020">
-				Did my Bachelors of Engineering in the major of Computer science in Kongu Engineering College, affliated to Anna University, Tamilnadu.
+				Did my Bachelors of Engineering in Computer science in Kongu Engineering College, affliated to Anna University, Tamilnadu.
 			</Tweet>
+
 			<Tweet
 				pinnedMessage="Projects"
-				eventImg=""
-				eventDate="2016 - 2020">
-				Hey there
-				<a href="https://balaji1202.github.io/WeatherApp/src/index.html">Project</a>
+				eventImg="weather"
+				eventDate="March 2020">
+				A simple weather app which lets you know your location's current weather in an animated format.
+				<ProjectLinks/>
 			</Tweet>
 		</div>
 	</div>
@@ -40,13 +42,15 @@
 import HeaderPanel from './HeaderPanel.vue';
 import ProfileMainAvatar from './ProfileMainAvatar.vue';
 import MainProfileInfo from './MainProfileInfo.vue';
-import Tweet from './Tweet.vue'
+import Tweet from './Tweet.vue';
+import ProjectLinks from './ProjectLinks.vue'
 export default {
 	components: {
 		HeaderPanel,
 		ProfileMainAvatar,
 		MainProfileInfo,
-		Tweet
+		Tweet,
+		ProjectLinks
 	}
 }
 </script>
