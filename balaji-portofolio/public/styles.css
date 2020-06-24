@@ -34,13 +34,12 @@
 	--shadow-header: var(--shadow-header-light);
 }
 
-
-@media (max-width: 400px) {
+@media (max-width: 300px) {
 	:root {
 		 font-size: 15.5px;
  }
 }
-@media (max-width: 300px) {
+@media (max-width: 250px) {
 	:root {
 		 font-size: 15px;
  }
