@@ -140,6 +140,7 @@ export default {
 .profile-position-content {
 	font-size: 0.9rem;
 	padding-top: 0.5rem;
+	line-height: 1.3rem;
 }
 .profile-basic-content {
 	display: flex;
