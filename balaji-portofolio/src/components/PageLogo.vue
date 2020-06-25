@@ -22,7 +22,7 @@
 		border-radius: 9999px;
 		padding: 0.5rem;
 		padding-top: 0.7rem;
-		margin: 0.1rem 0 0.2rem 0.1rem;
+		margin: 0.1rem 0 0.2rem 0;
 	}
 	.main-logo:hover {
 		background-color: var(--theme-base-hover);

@@ -26,13 +26,82 @@
 				eventDate="2016 - 2020">
 				Did my Bachelors of Engineering in Computer science in Kongu Engineering College, affliated to Anna University, Tamilnadu.
 			</Tweet>
-
+			
 			<Tweet
 				pinnedMessage="Projects"
+				eventImg="mockapis"
+				eventDate="May 2020">
+				Thousands of mocked data over various categories absolutely free for development purpose without any restrictions.
+				<br/><br/>
+				<TagSvg/>
+				<span class="project-sub-text">
+					JavaScript(VueJS) | HTML | CSS | NodeJS | MongoDB | Hosted on Heroku
+				</span>
+				<ProjectLinks
+					livehref="https://mock-apis-balaji.herokuapp.com/"
+					codehref="https://github.com/Balaji1202/mock-apis"
+				/>
+			</Tweet>
+			
+			<Tweet
+				eventImg="tictactoe"
+				eventDate="April 2020">
+				A simple Tic-Tac-Toe game where you could play with your friend or with the inbuilt AI friend.
+				<br/><br/>
+				<TagSvg/>
+				<span class="project-sub-text">
+					JavaScript(VueJS) | HTML | CSS | Hosted on Github pages
+				</span>
+				<ProjectLinks
+					livehref="https://balaji1202.github.io/TicTacToe/src/index.html"
+					codehref="https://github.com/Balaji1202/TicTacToe"
+				/>
+			</Tweet>
+			
+			<Tweet
 				eventImg="weather"
 				eventDate="March 2020">
 				A simple weather app which lets you know your location's current weather in an animated format.
-				<ProjectLinks/>
+				<br/><br/>
+				<TagSvg/>
+				<span class="project-sub-text">
+					JavaScript(VueJS) | HTML | CSS | Weatherbit API | Hosted on Github pages
+				</span>
+				<ProjectLinks
+					livehref="https://balaji1202.github.io/WeatherApp/src/index.html"
+					codehref="https://github.com/Balaji1202/WeatherApp"
+				/>
+			</Tweet>
+			<Tweet
+				pinnedMessage="Experience"
+				eventDate="May, 2019 - Jul, 2019">
+					Summer intern at Zoho Corporation.
+					<br/>
+					Joined Zoho, the Indian Software giant, as a Summer intern where I spent some beautiful days with..... HTML, CSS, JS.
+					<br>					
+					Came to know about interesting software engineering and project management process.
+			</Tweet>
+			<Tweet
+				eventDate="Jul, 2019 - Present">
+					Front end engineering Project trainee at Zoho Corporation.
+					<br/>
+					Got to work in an interesting and fast paced product as a front-end engineer.
+					<br>
+					Just started to explore front-end technologies and contributing to a great product in a great team.
+			</Tweet>
+			<Tweet
+				eventDate="Forever"
+				eventImg="paint">
+					Vue JS enthusiast.
+					<br>
+					Would love to build something daily on Vue JS.
+					<br/><br/>
+					Very inquisitive on creating good designs and optimized webapps and websites.
+			</Tweet>
+			<Tweet
+				eventDate="Anytime">
+					Got something to discuss.
+					Always open to new horizons
 			</Tweet>
 		</div>
 	</div>
@@ -43,14 +112,16 @@ import HeaderPanel from './HeaderPanel.vue';
 import ProfileMainAvatar from './ProfileMainAvatar.vue';
 import MainProfileInfo from './MainProfileInfo.vue';
 import Tweet from './Tweet.vue';
-import ProjectLinks from './ProjectLinks.vue'
+import ProjectLinks from './ProjectLinks.vue';
+import TagSvg from './TagSvg.vue'
 export default {
 	components: {
 		HeaderPanel,
 		ProfileMainAvatar,
 		MainProfileInfo,
 		Tweet,
-		ProjectLinks
+		ProjectLinks,
+		TagSvg
 	}
 }
 </script>
@@ -67,5 +138,9 @@ export default {
 	}
 	.header-image {
 		width: 100%;
+	}
+	.project-sub-text {
+		color: rgb(101, 119, 134);
+		font-size: 0.95rem;
 	}
 </style>
