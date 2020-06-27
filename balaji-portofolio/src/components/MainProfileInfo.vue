@@ -139,18 +139,18 @@ export default {
 	align-items: center;
 }
 .profile-name {
-	font-size: 18.4px;
+	font-size: 19px;
 	font-weight: bold;
 	padding: 0.1rem;
 	margin-right: 0.2rem;
 }
 .profile-handle {
-	font-size: 14.4px;
+	font-size: 15px;
 	padding: 0.1rem;
 	color: rgb(101, 119, 134);
 }
 .profile-position-content {
-	font-size: 14.4px;
+	font-size: 15px;
 	padding-top: 0.5rem;
 	line-height: 1.3rem;
 }
@@ -160,7 +160,7 @@ export default {
 	justify-content: flex-start;
 	align-items: center;
 	color: rgb(101, 119, 134);
-	font-size: 14.4px;
+	font-size: 15px;
 	padding-top: 0.5rem;
 	flex-wrap: wrap;
 }

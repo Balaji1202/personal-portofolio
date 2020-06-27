@@ -168,7 +168,7 @@ export default {
 <style scoped>
 .navigation-column {
 	margin-left: 27%;
-	font-size: 18.88px;
+	font-size: 19px;
 }
 .navigation-wrapper {
 	display: flex;

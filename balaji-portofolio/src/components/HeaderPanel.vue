@@ -73,7 +73,7 @@ export default {
 	.name-text {
 		padding: 0.1rem 0;
 		font-weight: bold;
-		font-size: 18.4px;
+		font-size: 19px;
 	}
 	.theme-switcher {
 		margin-left: auto;

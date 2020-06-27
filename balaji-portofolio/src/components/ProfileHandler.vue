@@ -88,12 +88,12 @@ export default {
 	padding-left: .5rem;
 }
 .profile-name {
-	font-size: 14.4px;
+	font-size: 15px;
 	font-weight: bold;
 	padding: 0.1rem;
 }
 .profile-handle {
-	font-size: 14.4px;
+	font-size: 15px;
 	padding: 0.1rem;
 	color: rgb(101, 119, 134);
 }
