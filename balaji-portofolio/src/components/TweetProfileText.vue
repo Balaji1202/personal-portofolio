@@ -39,12 +39,12 @@ export default {
 	padding-right: 0.2rem;
 }
 .profile-handle {
-	font-size: 1rem;
+	font-size: 0.9rem;
 	padding-left: 0.2rem;
 	color: rgb(101, 119, 134);
 }
 .profile-store {
-	font-size: 1rem;
+	font-size: 0.9rem;
 	color: rgb(101, 119, 134);
 }
 .profile-store-dot {
