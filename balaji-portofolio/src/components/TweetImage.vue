@@ -35,7 +35,7 @@ export default {
 	margin-top: 1.5rem;
 	width: 100%;
 	height: 100%;
-	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	box-shadow: var(--shadow-header-theme);
 	border-radius: 10px;
 }
 </style>

@@ -48,16 +48,16 @@ export default {
 		},
 		switchHoverTheme(root) {
 			let display = `--${this.theme}-theme-hover`;
+			let tweetDisplay = `--tweet-${this.theme}-theme-hover`
 			let theme = getComputedStyle(root).getPropertyValue(display);
+			let tweetTheme = getComputedStyle(root).getPropertyValue(tweetDisplay);
 			root.style.setProperty('--theme-base-hover', theme);
+			root.style.setProperty('--tweet-theme-hover', tweetTheme);
 		},
 		switchBoxShadows(root) {
-			let shadow = `--shadow-theme-${this.theme}`;
 			let headerShadow = `--shadow-header-${this.theme}`;
-			let theme = getComputedStyle(root).getPropertyValue(shadow);
 			let headerTheme = getComputedStyle(root).getPropertyValue(headerShadow);
-			root.style.setProperty('--shadow-theme', theme);
-			root.style.setProperty('--shadow-header', headerTheme);
+			root.style.setProperty('--shadow-header-theme', headerTheme);
 		},
 		switchTheme() {
 			this.darkTheme = !this.darkTheme;
@@ -68,6 +68,7 @@ export default {
 			this.switchTextTheme(root);
 			this.switchBodyTheme(root);
 			this.switchHoverTheme(root);
+			// this.switchBoxShadows(root);
 		}
 	},
 }

@@ -1,15 +1,28 @@
 <template>
-	<div class="main-panel">
+	<div class="main-panel" id="home">
 		<div class="main-content">
 			<HeaderPanel/>
-			<div class="header-banner">
+			<div id="header-banner" class="header-banner">
 				<img class="header-image" src="./../assets/header-background.jpg" alt="">
 			</div>
 			<ProfileMainAvatar/>
 			<MainProfileInfo/>
 			<Tweet
+				id="about"
+				pinnedMessage="About"
+				eventDate="Forever"
+				eventImg="paint">
+					Vue JS enthusiast.
+					<br>
+					Would love to build something daily on Vue JS.
+					<br/><br/>
+					Very inquisitive on creating good designs and optimized webapps and websites.
+			</Tweet>
+
+			<Tweet
+				id="work"
 				pinnedMessage="Work"
-				eventImg="zoho1"
+				eventImg="zoho"
 				eventDate="May 2019 - Present">
 				Front end developer Project trainee at Zoho Corporation, Chennai.
 				<br/><br/>
@@ -21,13 +34,35 @@
 			</Tweet>
 
 			<Tweet
+				id="education"
 				pinnedMessage="Education"
 				eventImg="education"
 				eventDate="2016 - 2020">
 				Did my Bachelors of Engineering in Computer science in Kongu Engineering College, affliated to Anna University, Tamilnadu.
 			</Tweet>
-			
+
 			<Tweet
+				id="experience"
+				pinnedMessage="Experience"
+				eventDate="May, 2019 - Jul, 2019">
+					Summer intern at Zoho Corporation.
+					<br/>
+					Joined Zoho, the Indian Software giant, as a Summer intern where I spent some beautiful days with..... HTML, CSS, JS, and other frontend tech and tools.
+					<br>					
+					Came to know about interesting software engineering and project management process.
+			</Tweet>
+
+			<Tweet
+				eventDate="Jul, 2019 - Present">
+					Front end engineering Project trainee at Zoho Corporation.
+					<br/>
+					Got to work in an interesting and fast paced product as a front-end engineer.
+					<br>
+					Started to fall in love with front-end technologies and contributing to a great product in a great team.
+			</Tweet>
+
+			<Tweet
+				id="projects"
 				pinnedMessage="Projects"
 				eventImg="mockapis"
 				eventDate="May 2020">
@@ -57,7 +92,7 @@
 					codehref="https://github.com/Balaji1202/TicTacToe"
 				/>
 			</Tweet>
-			
+
 			<Tweet
 				eventImg="weather"
 				eventDate="March 2020">
@@ -72,36 +107,24 @@
 					codehref="https://github.com/Balaji1202/WeatherApp"
 				/>
 			</Tweet>
+
 			<Tweet
-				pinnedMessage="Experience"
-				eventDate="May, 2019 - Jul, 2019">
-					Summer intern at Zoho Corporation.
-					<br/>
-					Joined Zoho, the Indian Software giant, as a Summer intern where I spent some beautiful days with..... HTML, CSS, JS.
-					<br>					
-					Came to know about interesting software engineering and project management process.
-			</Tweet>
-			<Tweet
-				eventDate="Jul, 2019 - Present">
-					Front end engineering Project trainee at Zoho Corporation.
-					<br/>
-					Got to work in an interesting and fast paced product as a front-end engineer.
-					<br>
-					Just started to explore front-end technologies and contributing to a great product in a great team.
-			</Tweet>
-			<Tweet
-				eventDate="Forever"
-				eventImg="paint">
-					Vue JS enthusiast.
-					<br>
-					Would love to build something daily on Vue JS.
-					<br/><br/>
-					Very inquisitive on creating good designs and optimized webapps and websites.
-			</Tweet>
-			<Tweet
+				pinnedMessage="Coffee?"
+				id="coffee"
 				eventDate="Anytime">
-					Got something to discuss.
-					Always open to new horizons
+					Got something to say.
+					Always open to discussions about great things.
+					<CoffeeForm/>
+					Drop me a message, along with something to get back to you. Let's get that done over a cup of coffee.
+			</Tweet>
+			<Tweet
+				pinnedMessage="Contact"
+				id="contact"
+				eventDate="Anytime">
+				<div>
+					You can reach out to me by some means here!
+					<ContactTweet/>
+				</div>
 			</Tweet>
 		</div>
 	</div>
@@ -113,7 +136,9 @@ import ProfileMainAvatar from './ProfileMainAvatar.vue';
 import MainProfileInfo from './MainProfileInfo.vue';
 import Tweet from './Tweet.vue';
 import ProjectLinks from './ProjectLinks.vue';
-import TagSvg from './TagSvg.vue'
+import TagSvg from './TagSvg.vue';
+import CoffeeForm from './CoffeeForm.vue';
+import ContactTweet from './ContactTweet.vue';
 export default {
 	components: {
 		HeaderPanel,
@@ -121,7 +146,9 @@ export default {
 		MainProfileInfo,
 		Tweet,
 		ProjectLinks,
-		TagSvg
+		TagSvg,
+		CoffeeForm,
+		ContactTweet
 	}
 }
 </script>

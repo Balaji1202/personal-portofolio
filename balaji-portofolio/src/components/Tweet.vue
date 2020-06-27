@@ -55,6 +55,12 @@ export default {
 .tweet-container-wrapper {
 	display: flex;
 	flex-direction: column;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.tweet-container-wrapper:hover {
+	background-color: var(--tweet-theme-hover);
+	transition: 0.5s;
 }
 .tweet-container {
 	border-bottom: 1px solid rgba(101, 119, 134, 0.2);

@@ -111,7 +111,7 @@ export default {
 		display: none;
 	}
 }
-@media (max-height: 620px) {
+@media (max-height: 670px) {
 	.profile-handler-row {
 		position: inherit;
 		margin-top: 1.5rem;

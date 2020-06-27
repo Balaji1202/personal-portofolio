@@ -1,9 +1,13 @@
 <template>
 	<div class="app">
 		<div class="col1"><NavigationPanel/></div>
-		<div class="main-col">
-			<div class="col2"><MainPanel/></div>
-			<div class="col3"><ExtrasPanel/></div>
+		<div id="main-col" class="main-col">
+			<div id="col2" class="col2">
+				<MainPanel/>
+			</div>
+			<div class="col3">
+				<ExtrasPanel/>
+			</div>
 		</div>
 	</div>
 </template>
@@ -51,9 +55,6 @@ export default {
 	.col1 {
 		flex: 1 0 22.7rem;
 		border-right: 1px solid rgba(230, 236, 240, 0.5);
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
 		overflow: auto;
 		background-color: var(--theme-base-body);
 		transition: 0.5s;
@@ -76,6 +77,7 @@ export default {
 	}
 	.main-col {
 		display: flex;
+		scroll-behavior: smooth;
 	}
 	@media (max-width: 1300px) {
 		.col1 {
@@ -88,13 +90,14 @@ export default {
 			align-items: center;
 		}
 	}
-	@media (max-width: 850px) {
+	@media (max-width: 839px) {
 		.main-col {
 			flex-wrap: wrap;
 			overflow: auto;
 		}
 		.col2 {
 			overflow: initial;
+			border: none;
 		}
 		.col3 {
 			overflow: initial;
@@ -110,6 +113,7 @@ export default {
 		.col1 {
 			flex: 0 0 3.7rem;
 			flex-direction: row;
+			border: none;
 		}
 		.col2 {
 			flex-basis: 0;

@@ -15,23 +15,23 @@
 	--light-theme-body: white;
 	--light-theme-text: #14171a;
 	/*  */
-	--dark-theme-body: #14171a;
-	--dark-theme-text: white;
-	/*  */
-	--shadow-theme-dark: 0 10px 16px 0 rgba(255, 255, 255, 0.302), 0 1px 3px 1px rgba(255, 255, 255, 0.149);
-	--shadow-theme-light: 0 10px 16px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
-	/*  */
-	--shadow-header-light: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
-	--shadow-header-dark: 0 10px 16px 0 rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(250, 250, 250, 0.19) !important;
+	--dark-theme-body: #121212;
+	--dark-theme-text: rgba(255, 255, 255, 0.9);
 	/*  */
 	--light-theme-hover: rgba(29, 161, 242, 0.1);
 	--dark-theme-hover: rgba(29, 161, 242, 0.3);
 	/*  */
+	--shadow-header-light: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	--shadow-header-dark: 0 10px 16px 0 rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(250, 250, 250, 0.19) !important;
+	/*  */
+	--tweet-light-theme-hover: rgb(245, 248, 250);
+	--tweet-dark-theme-hover: rgba(32, 33, 36, 0.5);
+	/*  */
 	--theme-base-body: var(--light-theme-body);
 	--theme-base-text: var(--light-theme-text);
 	--theme-base-hover: var(--light-theme-hover);
-	--shadow-theme: var(--shadow-theme-light);
-	--shadow-header: var(--shadow-header-light);
+	--shadow-header-theme: var(--shadow-header-light);
+	--tweet-theme-hover: var(--tweet-light-theme-hover)
 }
 
 @media (max-width: 350px) {
