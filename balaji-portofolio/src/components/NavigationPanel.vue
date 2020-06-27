@@ -168,7 +168,7 @@ export default {
 <style scoped>
 .navigation-column {
 	margin-left: 27%;
-	font-size: 1.18rem;
+	font-size: 18.88px;
 }
 .navigation-wrapper {
 	display: flex;
@@ -202,7 +202,7 @@ export default {
 		justify-content: space-around;
 		align-items: center;
 		margin: 0;
-		height: 60px;
+		height: 3.75rem;
 		bottom: 0;
 		width: 100%;
 		position: fixed;

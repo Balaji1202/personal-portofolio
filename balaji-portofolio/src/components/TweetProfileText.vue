@@ -34,17 +34,17 @@ export default {
 	padding-bottom: 0.5rem;
 }
 .profile-name {
-	font-size: 1rem;
+	font-size: 16px;
 	font-weight: bold;
 	padding-right: 0.2rem;
 }
 .profile-handle {
-	font-size: 0.9rem;
+	font-size: 14.4px;
 	padding-left: 0.2rem;
 	color: rgb(101, 119, 134);
 }
 .profile-store {
-	font-size: 0.9rem;
+	font-size: 14.4px;
 	color: rgb(101, 119, 134);
 }
 .profile-store-dot {

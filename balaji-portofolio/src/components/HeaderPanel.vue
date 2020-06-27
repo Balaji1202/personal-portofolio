@@ -55,8 +55,8 @@ export default {
 		padding: 0.3rem;
 	}
 	.header-avatar {
-		width: 40px;
-		height: 40px;
+		width: 2.5rem;
+		height: 2.5rem;
 		border-radius: 9999px;
 	}
 	.main-text {
@@ -67,13 +67,13 @@ export default {
 	}
 	.sub-text {
 		padding: 0.1rem 0 0.2rem 0;
-		font-size: 0.7rem;
+		font-size: 11.2px;
 		color: rgb(101, 119, 134);
 	}
 	.name-text {
 		padding: 0.1rem 0;
 		font-weight: bold;
-		font-size: 1.15rem;
+		font-size: 18.4px;
 	}
 	.theme-switcher {
 		margin-left: auto;

@@ -1,73 +1,85 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
-	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
-	-moz-tap-highlight-color:  rgba(255, 255, 255, 0);
-	-ms-tap-highlight-color:  rgba(255, 255, 255, 0);
-	scrollbar-width: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -moz-tap-highlight-color: rgba(255, 255, 255, 0);
+    -ms-tap-highlight-color: rgba(255, 255, 255, 0);
+    scrollbar-width: none;
 }
 
 :root {
-	font-size: 1em;
-	/*  */
-	--light-theme-body: white;
-	--light-theme-text: #14171a;
-	/*  */
-	--dark-theme-body: #121212;
-	--dark-theme-text: rgba(255, 255, 255, 0.9);
-	/*  */
-	--light-theme-hover: rgba(29, 161, 242, 0.1);
-	--dark-theme-hover: rgba(29, 161, 242, 0.3);
-	/*  */
-	--shadow-header-light: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
-	--shadow-header-dark: 0 10px 16px 0 rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(250, 250, 250, 0.19) !important;
-	/*  */
-	--tweet-light-theme-hover: rgb(245, 248, 250);
-	--tweet-dark-theme-hover: rgba(32, 33, 36, 0.5);
-	/*  */
-	--theme-base-body: var(--light-theme-body);
-	--theme-base-text: var(--light-theme-text);
-	--theme-base-hover: var(--light-theme-hover);
-	--shadow-header-theme: var(--shadow-header-light);
-	--tweet-theme-hover: var(--tweet-light-theme-hover)
+    font-size: 1em;
+    /*  */
+    --light-theme-body: white;
+    --light-theme-text: #14171a;
+    /*  */
+    --dark-theme-body: #121212;
+    --dark-theme-text: rgba(255, 255, 255, 0.9);
+    /*  */
+    --light-theme-hover: rgba(29, 161, 242, 0.1);
+    --dark-theme-hover: rgba(29, 161, 242, 0.3);
+    /*  */
+    --shadow-header-light: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    --shadow-header-dark: 0 10px 16px 0 rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(250, 250, 250, 0.19) !important;
+    /*  */
+    --tweet-light-theme-hover: rgb(245, 248, 250);
+    --tweet-dark-theme-hover: rgba(32, 33, 36, 0.5);
+    /*  */
+    --theme-base-body: var(--light-theme-body);
+    --theme-base-text: var(--light-theme-text);
+    --theme-base-hover: var(--light-theme-hover);
+    --shadow-header-theme: var(--shadow-header-light);
+    --tweet-theme-hover: var(--tweet-light-theme-hover)
 }
 
 @media (max-width: 350px) {
-	:root {
-		 font-size: 15px;
- }
+     :root {
+        font-size: 15px;
+    }
 }
+
+@media (max-width: 300px) {
+     :root {
+        font-size: 14.5px;
+    }
+}
+
 @media (max-width: 250px) {
-	:root {
-		 font-size: 14px;
- }
+     :root {
+        font-size: 14px;
+    }
 }
 
 html {
-	width: 100vw;	
+    width: 100vw;
 }
 
 body {
-	background-color: var(--theme-base-body);
-	font-size: 1.5rem;
-	transition: 0.5s;
+    background-color: var(--theme-base-body);
+    font-size: 1.5rem;
+    transition: 0.5s;
 }
 
 .svg-theme-text {
-	fill: var(--theme-base-text);
-	transition: 0.5s;
+    fill: var(--theme-base-text);
+    transition: 0.5s;
 }
+
 .svg-theme-background {
-	fill: var(--theme-base-body);
-	transition: 0.5s;
+    fill: var(--theme-base-body);
+    transition: 0.5s;
 }
+
 .svg-theme-active {
-	fill: rgb(29, 161, 242);
-	transition: 0.5s;
+    fill: rgb(29, 161, 242);
+    transition: 0.5s;
 }
+
 ::-webkit-scrollbar {
-	width: 0px;  /* Remove scrollbar space */
-	background: transparent;  /* Optional: just make scrollbar invisible */
+    width: 0px;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
 }

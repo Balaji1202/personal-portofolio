@@ -76,7 +76,7 @@ export default {
 	width: 100%;
 }
 .event-description {
-	font-size: 1rem;
+	font-size: 16px;
 	line-height: 1.5rem;
 }
 </style>

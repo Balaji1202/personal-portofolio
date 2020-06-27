@@ -28,7 +28,7 @@
 	}
 	.follow-anchor {
 		margin-left: auto;
-		font-size: 1rem;
+		font-size: 16px;
 		font-weight: 600;
 		text-decoration: none;
 		margin-right: 1rem;

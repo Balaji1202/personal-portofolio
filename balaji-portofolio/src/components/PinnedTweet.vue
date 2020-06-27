@@ -37,7 +37,7 @@ export default {
 }
 .pinned-message {
 	color: rgb(101, 119, 134);
-	font-size: 0.8rem;
+	font-size: 12.8px;
 	padding: 0.5rem;
 }
 </style>

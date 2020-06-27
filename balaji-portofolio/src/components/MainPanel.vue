@@ -168,6 +168,6 @@ export default {
 	}
 	.project-sub-text {
 		color: rgb(101, 119, 134);
-		font-size: 0.95rem;
+		font-size: 15.2px;
 	}
 </style>
