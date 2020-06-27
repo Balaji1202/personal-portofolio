@@ -30,7 +30,7 @@ export default {
 		justify-content: space-between;
 		align-items: center;
 		background-color: var(--theme-base-body);
-		height: 3.2rem;
+		height: 3.4rem;
 		white-space: nowrap;
 		overflow: hidden;
 		transition: 0.5s;
@@ -67,7 +67,7 @@ export default {
 	}
 	.sub-text {
 		padding: 0.1rem 0 0.2rem 0;
-		font-size: 11.2px;
+		font-size: 13px;
 		color: rgb(101, 119, 134);
 	}
 	.name-text {
