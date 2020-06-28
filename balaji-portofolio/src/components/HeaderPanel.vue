@@ -38,7 +38,7 @@ export default {
 		top: 0;
 		width: inherit;
 		max-width: inherit;
-		border-bottom: 1px solid rgba(230, 236, 240, 0.5);
+		border-bottom: 1px solid rgba(101, 119, 134, 0.5);
 		border-bottom-left-radius: 5px;
 		border-bottom-right-radius: 5px;
 	}

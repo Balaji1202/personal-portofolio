@@ -207,7 +207,9 @@ export default {
 		width: 100%;
 		position: fixed;
 		overflow-y: hidden;
-		border-top: 1px solid rgba(230, 236, 240, 0.5)
+		border-top: 1px solid rgba(101, 119, 134, 0.5);
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
 	}
 	.sub-navs {
 		display: none;

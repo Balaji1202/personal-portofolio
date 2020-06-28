@@ -59,6 +59,14 @@ export default {
 			let headerTheme = getComputedStyle(root).getPropertyValue(headerShadow);
 			root.style.setProperty('--shadow-header-theme', headerTheme);
 		},
+		switchExtrasTheme(root) {
+			let titleDisplay = `--extras-${this.theme}-theme-box`;
+			let titleTheme = getComputedStyle(root).getPropertyValue(titleDisplay);
+			root.style.setProperty('--extras-theme-box', titleTheme);
+			let contentDisplay = `--extras-${this.theme}-theme-content`;
+			let contentTheme = getComputedStyle(root).getPropertyValue(contentDisplay);
+			root.style.setProperty('--extras-theme-content', contentTheme);
+		},
 		switchTheme() {
 			this.darkTheme = !this.darkTheme;
 			let root = document.documentElement;
@@ -68,6 +76,7 @@ export default {
 			this.switchTextTheme(root);
 			this.switchBodyTheme(root);
 			this.switchHoverTheme(root);
+			this.switchExtrasTheme(root);
 			// this.switchBoxShadows(root);
 		}
 	},

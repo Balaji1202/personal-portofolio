@@ -14,7 +14,7 @@
 			</span>
 		</div>
 		<div class="profile-position-content">
-			<span>Zoho Corp Project trainee | Front end developer | Vue JS enthusiast | Blogger | Orator</span>
+			<span>Zoho Corp Project trainee | Front-end developer | Vue JS enthusiast | Blogger | Orator</span>
 		</div>
 		<div class="profile-basic-content">
 			<div
@@ -125,7 +125,7 @@ export default {
 	color: var(--theme-base-text);
 	overflow: hidden;
 	padding-bottom: 1rem;
-	border-bottom: 1px solid rgba(101, 119, 134, 0.2);
+	border-bottom: 1px solid rgba(101, 119, 134, 0.3);
 }
 .profile-text {
 	display: flex;

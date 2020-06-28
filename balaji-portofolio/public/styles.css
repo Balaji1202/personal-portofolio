@@ -25,30 +25,38 @@
     --shadow-header-dark: 0 10px 16px 0 rgba(250, 250, 250, 0.2), 0 6px 20px 0 rgba(250, 250, 250, 0.19) !important;
     /*  */
     --tweet-light-theme-hover: rgb(245, 248, 250);
-    --tweet-dark-theme-hover: rgba(32, 33, 36, 0.5);
+    --tweet-dark-theme-hover: rgba(21, 24, 28);
+    /*  */
+    --extras-light-theme-box: rgb(230, 236, 240);
+    --extras-dark-theme-box: rgb(32, 35, 39);
+    /*  */
+    --extras-light-theme-content: rgb(245, 248, 250);
+    --extras-dark-theme-content: #15181c;
     /*  */
     --theme-base-body: var(--light-theme-body);
     --theme-base-text: var(--light-theme-text);
     --theme-base-hover: var(--light-theme-hover);
     --shadow-header-theme: var(--shadow-header-light);
-    --tweet-theme-hover: var(--tweet-light-theme-hover)
+    --tweet-theme-hover: var(--tweet-light-theme-hover);
+    --extras-theme-box: var(--extras-light-theme-box);
+    --extras-theme-content: var(--extras-light-theme-content);
 }
 
 @media (max-width: 350px) {
      :root {
-        font-size: 15px;
+        font-size: 0.94em;
     }
 }
 
 @media (max-width: 300px) {
      :root {
-        font-size: 14.5px;
+        font-size: 0.91em;
     }
 }
 
 @media (max-width: 250px) {
      :root {
-        font-size: 14px;
+        font-size: 0.88em;
     }
 }
 

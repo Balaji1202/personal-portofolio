@@ -20,7 +20,7 @@ export default {
   components: {
 		NavigationPanel,
 		MainPanel,
-		ExtrasPanel
+		ExtrasPanel,
 	},
 	methods: {
 		checkIsMobile() {
@@ -54,7 +54,7 @@ export default {
 	}
 	.col1 {
 		flex: 1 0 22.7rem;
-		border-right: 1px solid rgba(230, 236, 240, 0.5);
+		border-right: 1px solid rgba(101, 119, 134, 0.2);
 		overflow: auto;
 		background-color: var(--theme-base-body);
 		transition: 0.5s;
@@ -62,7 +62,7 @@ export default {
 	}
 	.col2 {
 		flex: 15 0 27.5rem;
-		border-right: 1px solid rgba(230, 236, 240, 0.5);
+		border-right: 1px solid rgba(101, 119, 134, 0.2);
 		background-color: var(--theme-base-body);
 		transition: 0.5s;
 		overflow: auto;
@@ -74,6 +74,7 @@ export default {
 		transition: 0.5s;
 		overflow: auto;
 		scroll-behavior: smooth;
+		display: block;
 	}
 	.main-col {
 		display: flex;
@@ -101,6 +102,7 @@ export default {
 		}
 		.col3 {
 			overflow: initial;
+			display: none;
 		}
 	}
 	@media (max-width: 520px) {

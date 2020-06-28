@@ -38,5 +38,10 @@
 	width: 2rem;
 	height: 2rem;
 	fill: var(--theme-base-text);
+	transition: 0.5s;
+}
+.contact-logo:hover {
+	fill: rgb(29, 161, 242);
+	transition: 0.5s;
 }
 </style>

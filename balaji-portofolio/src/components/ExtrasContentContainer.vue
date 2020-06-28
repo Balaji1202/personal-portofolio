@@ -1,40 +1,27 @@
 <template>
-	<div class="tweet-container-wrapper">
-		<PinnedTweet
-			v-if="this.pinnedMessage"
-			:pinnedMessage="this.pinnedMessage"
-		/>
-		<div class="tweet-container">
-			<TweetProfileHandler/>
+	<div class="content-container-wrapper">
+		<div class="content-container">
 			<div class="event-container">
-				<TweetProfileText
-					:eventDate="this.eventDate"
-				/>
 				<div class="event-description">
 					<slot></slot>
 				</div>
 				<TweetImage
 					:eventImg="this.eventImg"
-					:tweetImageHref="this.tweetImageHref"/>
-				<EventActions/>
+					:tweetImageHref="this.contentImageHref"/>
+					<div
+						v-if="this.eventDate"
+						class="event-date">
+						<span>{{this.eventDate}}</span>
+					</div>
 			</div>
 		</div>
 	</div>
 </template>
 <script>
-import PinnedTweet from './PinnedTweet.vue';
-import TweetProfileHandler from './TweetProfileHandler.vue';
-import TweetProfileText from './TweetProfileText.vue';
 import TweetImage from './TweetImage.vue';
-import EventActions from './EventActions.vue';
-
 export default {
 	components: {
-		PinnedTweet,
-		EventActions,
-		TweetProfileHandler,
 		TweetImage,
-		TweetProfileText
 	},
 	props: {
 		pinnedMessage: {
@@ -42,14 +29,14 @@ export default {
 			required: false
 		},
 		eventDate : {
-			required: true,
+			required: false,
 			type: String
 		},
 		eventImg: {
 			required: false,
 			type: String
 		},
-		tweetImageHref: {
+		contentImageHref: {
 			required: false,
 			type: String
 		}
@@ -57,18 +44,20 @@ export default {
 }
 </script>
 <style scoped>
-.tweet-container-wrapper {
+.content-container-wrapper {
 	display: flex;
 	flex-direction: column;
 	cursor: pointer;
 	transition: 0.5s;
-	border-bottom: 1px solid rgba(101, 119, 134, 0.3);
+	background-color: var(--extras-theme-content);
+	border: 1px solid rgba(101, 119, 134, 0.5);
 }
-.tweet-container-wrapper:hover {
-	background-color: var(--tweet-theme-hover);
+.content-container-wrapper:hover {
 	transition: 0.5s;
+	background-color: rgba(255, 255, 255, 0.03);
+	border: 1px solid rgb(29, 161, 242);
 }
-.tweet-container {
+.content-container {
 	padding: 1rem 0.5rem;
 	color: var(--theme-base-text);
 	display: flex;
@@ -83,5 +72,14 @@ export default {
 .event-description {
 	font-size: 16px;
 	line-height: 1.5rem;
+}
+.event-date {
+	color: rgb(101, 119, 134);
+	font-size: 15px;
+	margin-top: 1rem;
+}
+.project-sub-text {
+	color: rgb(101, 119, 134);
+	font-size: 15.2px;
 }
 </style>

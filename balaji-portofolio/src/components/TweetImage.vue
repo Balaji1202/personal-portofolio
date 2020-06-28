@@ -1,17 +1,23 @@
 <template>
-	<div class="tweet-image-container">
-		<img
-			loading="lazy"
-			class="event-image"
-			v-if="eventImg"
-		:src="this.getImgUrl(eventImg)" alt="event-image">
-	</div>
+		<a :href="this.tweetImageHref" target="_blank">
+			<div class="tweet-image-container">
+				<img
+					loading="lazy"
+					class="event-image"
+					v-if="eventImg"
+				:src="this.getImgUrl(eventImg)" alt="event-image">
+			</div>
+		</a>
 </template>
 
 <script>
 export default {
 	props: {
 		eventImg: {
+			type: String,
+			required: false
+		},
+		tweetImageHref: {
 			type: String,
 			required: false
 		}
