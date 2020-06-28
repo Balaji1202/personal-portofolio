@@ -11,7 +11,7 @@
 				id="about"
 				pinnedMessage="About"
 				eventDate="Forever">
-					I'm a front-end software engineer who loves to solve potential front-end problems, along with desining and developing creative UIs.
+					I'm a front-end software engineer who loves to solve potential front-end problems, along with designing and developing creative UIs.
 					<br><br>
 					Loves to blog, read, and speak on stages.
 					<br><br>
