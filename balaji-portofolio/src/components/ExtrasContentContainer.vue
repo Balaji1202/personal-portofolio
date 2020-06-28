@@ -50,12 +50,13 @@ export default {
 	cursor: pointer;
 	transition: 0.5s;
 	background-color: var(--extras-theme-content);
-	border: 1px solid rgba(101, 119, 134, 0.5);
+	border: 1px solid var(--theme-base-body);
 }
 .content-container-wrapper:hover {
 	transition: 0.5s;
 	background-color: rgba(255, 255, 255, 0.03);
 	border: 1px solid rgb(29, 161, 242);
+	border-radius: 1rem;
 }
 .content-container {
 	padding: 1rem 0.5rem;
