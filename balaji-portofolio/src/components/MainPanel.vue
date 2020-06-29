@@ -46,7 +46,7 @@
 			<Tweet
 				id="experience"
 				pinnedMessage="Experience"
-				eventDate="Jul, 2019 - Present">
+				eventDate="July, 2019 - Present">
 				Front-end engineering Project trainee at Zoho Corporation.
 				<br/><br/>
 				Got to work in an interesting and fast paced product as a front-end developer.
@@ -55,7 +55,7 @@
 			</Tweet>
 
 			<Tweet
-				eventDate="May, 2019 - Jul, 2019">
+				eventDate="May, 2019 - July, 2019">
 				Summer intern at Zoho Corporation.
 				<br/><br/>
 				Joined Zoho, the Indian Software giant, as a Summer intern where I spent some beautiful days with..... HTML, CSS, JS, and other front-end tech and tools.
@@ -72,7 +72,7 @@
 				Have a look at those in the repo.
 				<ProjectLinks
 					codeName="Github"
-					codehref="https://github.com/Balaji1202"
+					codeHref="https://github.com/Balaji1202"
 				/>
 			</Tweet>
 

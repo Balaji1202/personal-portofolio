@@ -34,7 +34,6 @@ export default {
 				case 'mouseout': this.removeHoverStyles(event.currentTarget);
 				break;
 			}
-
 		},
 		applyHoverStyles(eventTarget) {
 			if(!eventTarget || this.$root.isMobile) {
@@ -59,7 +58,8 @@ export default {
 			let navigationIndex = id.indexOf('-');
 			id = id.slice(0, navigationIndex);
 			let idDom = document.getElementById(id);
-			idDom.scrollIntoView({block: "center", behavior: "smooth"});
+			let blockPosition = 'center'
+			idDom.scrollIntoView({block: blockPosition, behavior: "smooth"});
 		},
 		navLinkClicked(eventTarget) {
 			this.scrollIntoSection(eventTarget);
@@ -79,7 +79,11 @@ export default {
 			});
 			this.removeHoverStyles(eventTarget);
 		}
-	}
+	},
+	mounted() {
+		let homeNavTarget = document.getElementById('home-navigation');
+		this.navLinkClicked(homeNavTarget);
+	},
 }
 </script>
 
