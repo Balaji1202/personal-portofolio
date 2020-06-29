@@ -58,7 +58,6 @@ export default {
 		overflow: auto;
 		background-color: var(--theme-base-body);
 		transition: 0.5s;
-		scroll-behavior: smooth;
 	}
 	.col2 {
 		flex: 15 0 27.5rem;
@@ -66,19 +65,16 @@ export default {
 		background-color: var(--theme-base-body);
 		transition: 0.5s;
 		overflow: auto;
-		scroll-behavior: smooth;
 	}
 	.col3 {
 		flex: 15 0 20rem;
 		background-color: var(--theme-base-body);
 		transition: 0.5s;
 		overflow: auto;
-		scroll-behavior: smooth;
 		display: block;
 	}
 	.main-col {
 		display: flex;
-		scroll-behavior: smooth;
 	}
 	@media (max-width: 1300px) {
 		.col1 {

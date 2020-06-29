@@ -4,7 +4,7 @@
 			@click="hookFunction"
 			@mouseover="hookFunction"
 			@mouseout="hookFunction"
-			:id="this.href + '-navigation'" class="nav-link" :href="'#'+this.href">
+			:id="this.href + '-navigation'" class="nav-link">
 			<slot></slot>
 			<span class="nav-text">{{this.navName}}</span>
 		</a>
@@ -54,7 +54,15 @@ export default {
 				node.classList.remove('svg-theme-active');
 			});
 		},
+		scrollIntoSection(eventTarget)  {
+			let id = eventTarget.getAttribute('id');
+			let navigationIndex = id.indexOf('-');
+			id = id.slice(0, navigationIndex);
+			let idDom = document.getElementById(id);
+			idDom.scrollIntoView({block: "center", behavior: "smooth"});
+		},
 		navLinkClicked(eventTarget) {
+			this.scrollIntoSection(eventTarget);
 			if(!eventTarget || eventTarget.classList.contains('link-active-style')) {
 				return;
 			}
@@ -70,20 +78,8 @@ export default {
 				node.classList.add('svg-theme-active');
 			});
 			this.removeHoverStyles(eventTarget);
-		},
-		triggerSelectedOnLoad() {
-			const selectedSection = (window.location.hash).slice(1);
-			const targetNavigation = document.getElementById(selectedSection+'-navigation');
-			this.navLinkClicked(targetNavigation);
 		}
-	},
-	mounted() {
-		const _this = this;
-		this.triggerSelectedOnLoad();
-		window.addEventListener('hashchange', function() {
-			_this.triggerSelectedOnLoad();
-		}, false);
-	},
+	}
 }
 </script>
 
@@ -103,6 +99,7 @@ export default {
 		padding: 0.17rem 0rem 0.17rem 0.5rem;
 		border-radius: 9999px;
 		color: var(--theme-base-text);
+		cursor: pointer;
 	}
 	.nav-text {
 		font-weight: bold;

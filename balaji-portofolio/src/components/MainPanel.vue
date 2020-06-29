@@ -1,12 +1,12 @@
 <template>
-	<div class="main-panel" id="home">
+	<div class="main-panel">
 		<HeaderPanel/>
 		<div class="main-content">
-			<div id="header-banner" class="header-banner">
+			<div id="home" class="header-banner">
 				<img class="header-image" src="./../assets/header-background.jpg" alt="">
 			</div>
 			<ProfileMainAvatar/>
-			<MainProfileInfo/>
+			<MainProfileInfo id="explore"/>
 			<Tweet
 				id="about"
 				pinnedMessage="About"
@@ -79,7 +79,7 @@
 			<Tweet
 				pinnedMessage="Coffee?"
 				id="coffee"
-				eventDate="Anytime">
+				eventDate="Always">
 					Got something to say.
 					Always open to discussions about great things.
 					<CoffeeForm/>

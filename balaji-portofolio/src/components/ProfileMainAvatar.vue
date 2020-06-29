@@ -1,9 +1,11 @@
 <template>
-	<div class="main-avatar-wrapper" id="explore">
+	<div class="main-avatar-wrapper">
 		<div class="avatar-wrapper">
 			<img class="main-avatar" src="./../assets/balaji-pic.jpg" alt="avatar-main">
 		</div>
-		<a class="follow-anchor" href="https://twitter.com/intent/follow?screen_name=balajisv_" target="_blank">
+		<a
+			@click="openFollowIntent"
+			class="follow-anchor">
 			<div class="follow-link">
 				<span>Follow</span>
 			</div>
@@ -11,6 +13,17 @@
 	</div>
 	
 </template>
+
+<script>
+export default {
+	methods: {
+		openFollowIntent() {
+			window.open('https://twitter.com/intent/follow?screen_name=balajisv_', '_blank')
+		}
+	}
+}
+</script>
+
 <style scoped>
 	.main-avatar-wrapper {
 		display: flex;
@@ -35,6 +48,7 @@
 		margin-top: 0.5rem;
 		color: rgb(29, 161, 242);
 		width: fit-content;
+		cursor: pointer;
 		height: fit-content;
 	}
 	.follow-link {

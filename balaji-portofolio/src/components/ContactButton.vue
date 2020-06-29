@@ -1,6 +1,8 @@
 <template>
 	<div class="contact-button">
-		<a class="contact-link" href="#contact">
+		<a
+			@click="scrollIntoSection"
+			class="contact-link" id="contact-navigation">
 			<div class="contact-div">
 				<svg class="contact-svg" viewBox="0 0 512 487" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g>
@@ -14,6 +16,31 @@
 	</div>
 </template>
 
+<script>
+export default {
+	methods: {
+		scrollIntoSection(event)  {
+			let eventTarget = event.currentTarget;
+			this.removeSiblingsClickedStyles(eventTarget);
+			let id = eventTarget.getAttribute('id');
+			let navigationIndex = id.indexOf('-');
+			id = id.slice(0, navigationIndex);
+			let idDom = document.getElementById(id);
+			idDom.scrollIntoView({block: "center", behavior: "smooth"});
+		},
+		removeSiblingsClickedStyles(eventTarget) {
+			let prevActiveNode = eventTarget.closest('.navigations').querySelector('.link-active-style');
+			if(prevActiveNode) {
+				prevActiveNode.classList.remove('link-active-style');
+				prevActiveNode.querySelectorAll('.svg-theme-background').forEach(node => {
+					node.classList.remove('svg-theme-active');
+				});
+			}
+		}
+	}
+}
+</script>
+
 <style scoped>
 	.contact-button {
 		padding: 1rem 0;
@@ -21,6 +48,7 @@
 	}
 	.contact-link {
 		text-decoration: none;
+		cursor: pointer;
 	}
 	.contact-div {
 		display: flex;

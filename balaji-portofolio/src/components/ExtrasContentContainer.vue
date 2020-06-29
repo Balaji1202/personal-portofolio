@@ -8,11 +8,11 @@
 				<TweetImage
 					:eventImg="this.eventImg"
 					:tweetImageHref="this.contentImageHref"/>
-					<div
-						v-if="this.eventDate"
-						class="event-date">
-						<span>{{this.eventDate}}</span>
-					</div>
+				<div
+					v-if="this.eventDate"
+					class="event-date">
+					<span>{{this.eventDate}}</span>
+				</div>
 			</div>
 		</div>
 	</div>
