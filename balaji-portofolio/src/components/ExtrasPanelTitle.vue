@@ -5,6 +5,7 @@
 </template>
 
 <style lang="css" scoped>
+
 .extras-title-wrapper {
 	display: flex;
 	flex-direction: row;

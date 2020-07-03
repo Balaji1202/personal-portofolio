@@ -104,6 +104,7 @@ export default {
 		border-radius: 9999px;
 		color: var(--theme-base-text);
 		cursor: pointer;
+		transition: 0.5s;
 	}
 	.nav-text {
 		font-weight: bold;

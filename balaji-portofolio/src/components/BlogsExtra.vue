@@ -29,7 +29,7 @@
 			<span style="font-weight:600; font-size: 17px;color: rgb(101, 119, 134);">ES11 - The JS Show - Part 2</span>
 			<p>
 			<br>
-				The most desired features of ES2020 AKA ES11. Every JavaScript developer must be on the latest tech evolving in their core tech. Here is a blog on the new features of JavaScript
+				The most desired features of ES2020 AKA ES11. Every JavaScript developer must be aware on the latest development evolving in their core tech. Here is a blog on the new features of JavaScript.
 			</p>
 			<ProjectLinks
 				blogHref="https://twobytwelve.blogspot.com/2020/04/es11-js-show-part-2.html"
@@ -44,7 +44,7 @@
 			<span style="font-weight:600; font-size: 17px;color: rgb(101, 119, 134);">A drop of honey</span>
 			<p>
 			<br>
-				A feel good blog on people science, contrasting about two different perspectives of two different famous authors on handling people.
+				A writing which contrasts two different perspectives of two different famous authors on their thoughts on handling people.
 			</p>
 			<ProjectLinks
 				blogHref="https://twobytwelve.blogspot.com/2019/12/a-drop-of-honey.html"

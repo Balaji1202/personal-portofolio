@@ -3,6 +3,7 @@
 		<ExtrasPanelTitle/>
 		<ProjectsExtras/>
 		<BlogsExtra/>
+		<Disclaimer/>
 	</div>
 </template>
 
@@ -10,11 +11,13 @@
 import ExtrasPanelTitle from './ExtrasPanelTitle.vue';
 import ProjectsExtras from './ProjectsExtras.vue';
 import BlogsExtra from './BlogsExtra.vue';
+import Disclaimer from './Disclaimer.vue'
 export default {
 	components: {
 		ExtrasPanelTitle,
 		ProjectsExtras,
-		BlogsExtra
+		BlogsExtra,
+		Disclaimer
 	}
 }
 </script>
@@ -24,8 +27,8 @@ export default {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		align-items: center;
-		margin: 0.5rem 10% 0 10%;
+		align-items: flex-start;
+		margin: 0 10%;
 		transition: 0.5s;
 		margin-bottom: 5rem;
 	}

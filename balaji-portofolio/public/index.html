@@ -15,6 +15,14 @@
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+    <form hidden autocomplete="off" name="coffee-with-me" netlify netlify-honeypot="bot-field">
+
+        <input type="text" name="message" id="message">
+
+        <input type="text" name="contact" id="contact">
+
+        <input type="submit" value="Submit">
+    </form>
 </body>
 
 </html>

@@ -78,6 +78,13 @@ export default {
 			this.switchHoverTheme(root);
 			this.switchExtrasTheme(root);
 			// this.switchBoxShadows(root);
+			localStorage.setItem('userLastPreferedTheme', this.theme);
+		}
+	},
+	mounted() {
+		let lastPreferredTheme = localStorage.getItem('userLastPreferedTheme');
+		if(this.theme !== lastPreferredTheme) {
+			this.switchTheme();
 		}
 	},
 }

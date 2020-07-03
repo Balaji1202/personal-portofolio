@@ -41,6 +41,7 @@ export default {
 		border-bottom: 1px solid rgba(101, 119, 134, 0.5);
 		border-bottom-left-radius: 5px;
 		border-bottom-right-radius: 5px;
+		z-index: 1;
 	}
 	.header-shadow {
 		box-shadow: var(--shadow-header-theme);
