@@ -24,7 +24,7 @@
 			</div>
 		</div>
 		<div class="coffee-submit-wrapper">
-			<input class="coffee-submit" type="submit" value="Submit">
+			<input class="coffee-submit" type="submit" value="Send">
 		</div>
 	</form>
 </template>
