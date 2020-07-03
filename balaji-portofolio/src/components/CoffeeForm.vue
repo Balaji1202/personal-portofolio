@@ -131,7 +131,7 @@ export default {
 }
 .coffee-submit {
 	width: 7rem;
-	padding: 0.7rem;
+	padding: 0.5rem;
 	border-radius: 9999px;
 	background: rgb(29, 161, 242);
 	color: white;
@@ -139,6 +139,7 @@ export default {
 	font-size: 20px;
 	cursor: pointer;
 	transition: 0.5s;
+	margin-top: 1rem;
 }
 .coffee-submit:hover {
 	background-color: rgb(26, 145, 218);
