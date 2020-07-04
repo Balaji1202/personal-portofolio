@@ -83,7 +83,7 @@ export default {
 	},
 	mounted() {
 		let lastPreferredTheme = localStorage.getItem('userLastPreferedTheme');
-		if(this.theme !== lastPreferredTheme) {
+		if(lastPreferredTheme && this.theme !== lastPreferredTheme) {
 			this.switchTheme();
 		}
 	},

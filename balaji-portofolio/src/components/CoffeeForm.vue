@@ -122,7 +122,6 @@ export default {
 }
 .active {
   top: -25px;
-  font-size: 18px;
 	border: 1px solid rgb(29, 161, 242);
 }
 .coffee-submit-wrapper {
