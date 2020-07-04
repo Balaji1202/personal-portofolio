@@ -30,7 +30,7 @@ export default {
 		justify-content: flex-start;
 	}
 	.main-avatar {
-		width: 40%;
+		width: 35%;
 		border-radius: 9999px;
 		border: 4px solid white;
 	}

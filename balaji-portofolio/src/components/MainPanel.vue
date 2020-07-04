@@ -11,7 +11,7 @@
 				id="about"
 				pinnedMessage="About"
 				eventDate="Forever">
-					I'm a front-end software developer engineer who loves solving potential front-end problems, along with designing and developing creative UIs.
+					I'm a front-end engineer who loves solving potential front-end problems, along with designing and developing creative UIs.
 					<br><br>
 					Loves to blog, read, and speak on stages.
 					<br><br>
@@ -30,7 +30,7 @@
 				<br/><br/>
 				Zoho Corporation gave a head start to my front-end career.
 				<br/><br/>
-				I'm currently working in a team solving potential problems with groundbreaking, clean, and performance-oriented solutions.
+				Currently working in a team solving potential problems with groundbreaking, clean, and performance-oriented solutions.
 			</Tweet>
 
 			<Tweet
@@ -38,7 +38,7 @@
 				pinnedMessage="Education"
 				eventImg="education"
 				eventDate="2016 - 2020">
-				Did my Bachelors in Computer Science Engineering in Kongu Engineering College, affliated to Anna University, Tamilnadu.
+				Did my Bachelors in Computer Science and Engineering in Kongu Engineering College, affliated to Anna University, Tamilnadu.
 			</Tweet>
 
 			<Tweet
@@ -176,6 +176,8 @@ export default {
 	}
 	.header-image {
 		width: 100%;
+		border-bottom-left-radius: 0.8rem;
+		border-bottom-right-radius: 0.8rem;
 	}
 	.project-sub-text {
 		color: rgb(101, 119, 134);
