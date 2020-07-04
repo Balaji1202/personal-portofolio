@@ -176,8 +176,6 @@ export default {
 	}
 	.header-image {
 		width: 100%;
-		border-bottom-left-radius: 0.5rem;
-		border-bottom-right-radius: 0.5rem;
 	}
 	.project-sub-text {
 		color: rgb(101, 119, 134);
