@@ -11,7 +11,7 @@
 				id="about"
 				pinnedMessage="About"
 				eventDate="Forever">
-					I'm a front-end engineer who loves solving potential front-end problems, along with designing and developing creative UIs.
+					I'm a Front-End Web Developer who loves solving potential front-end problems, along with designing and developing creative UIs and applications.
 					<br><br>
 					Loves to blog, read, and speak on stages.
 					<br><br>
@@ -26,11 +26,12 @@
 				eventImg="zoho"
 				eventDate="May 2019 - Present"
 				tweetImageHref="https://www.youtube.com/watch?v=j-DV1KZZmwc">
-				Currently working as a front-end engineering Project Trainee at Zoho Corporation, Chennai.
+				Currently working as a Front-End Engineer at Zoho Corporation, Chennai.
 				<br/><br/>
-				Zoho Corporation gave a head start to my front-end career.
+				Zoho corporation has 45+ products powering various Enterprises and Businesses all over the world, with over an 50 Million users.
+				Those products nearly act as an Operating System to those businesses.
 				<br/><br/>
-				Currently working in a team solving potential problems with groundbreaking, clean, and performance-oriented solutions.
+				Among those 45+ products, I'm currently working in a product, with a great team, solving potential front-end problems with ground-breaking, clean, and performance-oriented solutions.
 			</Tweet>
 
 			<Tweet
@@ -44,17 +45,27 @@
 			<Tweet
 				id="experience"
 				pinnedMessage="Experience"
-				eventDate="July, 2019 - Present">
-				Front-end engineering Project Trainee at Zoho Corporation.
+				eventDate="July, 2020 - Present">
+				Member Technical Staff at Zoho Corporation.
 				<br/><br/>
-				Got to work in an interesting and fast paced product as a front-end developer.
-				<br>
-				Started to fall in love with front-end technologies and contributing to a great product in a great team.
+				Working in an interesting and fast paced product as a Front-End Engineer.
+				<br/><br/>
+				Standing in the shoes of a Front-end Software engineer at Zoho to solve and develop features to various problems, with an effort to bring good user experience and solutions to customers.
+			</Tweet>
+
+			<Tweet
+				id="experience"
+				eventDate="July, 2019 - July, 2020">
+				Project Trainee at Zoho Corporation.
+				<br/><br/>
+				Got to train and hone myself in the various Front-end technologies and contributed to a great product in a great team.
+				<br/><br/>
+				Fell in love with front-end technologies.
 			</Tweet>
 
 			<Tweet
 				eventDate="May, 2019 - July, 2019">
-				Summer intern at Zoho Corporation.
+				Summer Intern at Zoho Corporation.
 				<br/><br/>
 				Joined Zoho, the Indian Software giant, as a Summer intern where I spent some beautiful days with..... HTML, CSS, JS, and other front-end tech and tools.
 				<br>					

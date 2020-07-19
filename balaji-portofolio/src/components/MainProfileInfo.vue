@@ -14,7 +14,7 @@
 			</span>
 		</div>
 		<div class="profile-position-content">
-			<span>Zoho Corp Project trainee | Front-end developer | Vue JS enthusiast | Blogger | Orator</span>
+			<span>Software Engineer @ Zoho | Front-end developer | Vue JS enthusiast | Blogger | Orator</span>
 		</div>
 		<div class="profile-basic-content">
 			<div
