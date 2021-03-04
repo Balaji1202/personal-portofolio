@@ -1,5 +1,6 @@
 # twitter-recreation-portofolio
-
+### Customize configuration
+See [Live Project](https://balajisv.netlify.app).
 ## Project setup
 ```
 npm install
