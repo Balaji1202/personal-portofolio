@@ -55,10 +55,6 @@ export default {
 	.header-image {
 		width: 100%;
 	}
-	.project-sub-text {
-		color: rgb(101, 119, 134);
-		font-size: 15.2px;
-	}
 	.main-col-wrap {
 		display: none;
 	}

@@ -3,7 +3,12 @@
 		<div class="content-container">
 			<div class="event-container">
 				<div class="event-description">
-					<slot></slot>
+					<ExtrasContent
+						:content="content"
+						:links="links"
+						:tags="tags"
+						:title="title"
+					/>
 				</div>
 				<TweetImage
 					:eventImg="this.eventImg"
@@ -19,15 +24,13 @@
 </template>
 <script>
 import TweetImage from './TweetImage.vue';
+import ExtrasContent from './ExtrasContent.vue';
 export default {
 	components: {
 		TweetImage,
+		ExtrasContent
 	},
 	props: {
-		pinnedMessage: {
-			type: String,
-			required: false
-		},
 		eventDate : {
 			required: false,
 			type: String
@@ -39,6 +42,22 @@ export default {
 		contentImageHref: {
 			required: false,
 			type: String
+		},
+		title: {
+          type: String,
+          required: true
+		},
+		content: {
+			type: String,
+			required: true
+		},
+		tags: {
+			type: String,
+			required: false
+		},
+		links: {
+			type: Array,
+			required: true
 		}
 	}
 }
@@ -78,9 +97,5 @@ export default {
 	color: rgb(101, 119, 134);
 	font-size: 15px;
 	margin-top: 1rem;
-}
-.project-sub-text {
-	color: rgb(101, 119, 134);
-	font-size: 15.2px;
 }
 </style>

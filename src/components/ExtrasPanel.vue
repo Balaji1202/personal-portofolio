@@ -1,24 +1,26 @@
 <template>
 	<div class="extras-panel">
 		<ExtrasPanelTitle/>
-		<component
-			v-for="(component, index) in this.$root.extras" :key="index"
-			:is="component">
-		</component>
+		<ExtrasContainer
+			v-for="(extra, index) in this.$root.extras" :key="index"
+			:contents="extra.contents"
+			:footerTitle="extra.footerTitle"
+			:footerLink="extra.footerLink"
+			:headerTitle="extra.headerTitle"
+			:type="extra.type"
+		/>
 		<Disclaimer/>
 	</div>
 </template>
 
 <script>
 import ExtrasPanelTitle from './ExtrasPanelTitle.vue';
-import ProjectsExtras from './ProjectsExtras.vue';
-import BlogsExtra from './BlogsExtra.vue';
+import ExtrasContainer from './ExtrasContainer.vue';
 import Disclaimer from './Disclaimer.vue'
 export default {
 	components: {
 		ExtrasPanelTitle,
-		ProjectsExtras,
-		BlogsExtra,
+		ExtrasContainer,
 		Disclaimer
 	}
 }

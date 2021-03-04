@@ -14,10 +14,13 @@
 				<div
 					v-if="this.extra"
 					class="event-description">
-					<ProjectLinks
+					<ExtrasLink
 						v-if="this.extra === 'project'"
-						codeName="Github"
-						codeHref="https://github.com/Balaji1202"/>
+						:links="[{
+							name: 'Github',
+							href: 'https://github.com/Balaji1202',
+							type: 'code'
+						}]"/>
 					<CoffeeWrapper
 						v-if="this.extra === 'coffee'"/>
 					<ContactTweet
@@ -37,7 +40,7 @@ import PinnedTweet from './PinnedTweet.vue';
 import TweetProfileHandler from './TweetProfileHandler.vue';
 import TweetProfileText from './TweetProfileText.vue';
 import TweetImage from './TweetImage.vue';
-import ProjectLinks from './ProjectLinks.vue';
+import ExtrasLink from './ExtrasLink.vue';
 import CoffeeWrapper from './CoffeeWrapper.vue'
 import ContactTweet from './ContactTweet.vue';
 import EventActions from './EventActions.vue';
@@ -49,7 +52,7 @@ export default {
 		TweetProfileHandler,
 		TweetImage,
 		TweetProfileText,
-		ProjectLinks,
+		ExtrasLink,
 		CoffeeWrapper,
 		ContactTweet
 	},

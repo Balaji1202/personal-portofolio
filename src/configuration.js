@@ -74,7 +74,121 @@ export default {
       extra: 'contact'
     }
   ],
-  extras: ['ProjectsExtras', 'BlogsExtra'],
+  extras: [{
+      type: 'projects',
+      headerTitle: 'Projects',
+      footerTitle: 'More',
+      footerLink: 'https://github.com/Balaji1202?tab=repositories',
+      contents: [{
+          title: 'Mocked APIs',
+          image: "mockapis",
+          date: "May 2020",
+          imageHref: "https://mock-apis-balaji.herokuapp.com/",
+          content: `Thousands of mocked data over various categories absolutely free for development purpose without any restrictions.`,
+          tags: 'JavaScript(VueJS) | HTML | CSS | NodeJS | MongoDB | Hosted on Heroku',
+          links: [{
+              name: 'Live',
+              type: 'live',
+              href: "https://mock-apis-balaji.herokuapp.com/"
+            },
+            {
+              name: 'Code',
+              type: 'code',
+              href: "https://github.com/Balaji1202/mock-apis"
+            }
+          ]
+        },
+        {
+          title: 'Tic-Tac-Toe',
+          image: "tictactoe",
+          date: "April 2020",
+          imageHref: "https://balaji1202.github.io/TicTacToe/src/index.html",
+          content: `A paperless Tic-Tac-Toe game where you could play with your friend or with the inbuilt AI friend.`,
+          tags: 'JavaScript(VueJS) | HTML | CSS | Hosted on Github pages',
+          links: [{
+              name: 'Live',
+              type: 'live',
+              href: "https://balaji1202.github.io/TicTacToe/src/index.html"
+            },
+            {
+              name: 'Code',
+              type: 'code',
+              href: "https://github.com/Balaji1202/TicTacToe"
+            }
+          ]
+        },
+        {
+          title: 'Your weather',
+          image: "weather",
+          date: "March 2020",
+          imageHref: "https://balaji1202.github.io/WeatherApp/src/index.html",
+          content: `A weather app which lets you know your location's current weather in an animated format.`,
+          tags: 'JavaScript(VueJS) | HTML | CSS | Hosted on Github pages',
+          links: [{
+              name: 'Live',
+              type: 'live',
+              href: "https://balaji1202.github.io/WeatherApp/src/index.html"
+            },
+            {
+              name: 'Code',
+              type: 'code',
+              href: "https://github.com/Balaji1202/WeatherApp"
+            }
+          ]
+        },
+      ]
+    },
+    {
+      type: 'blogs',
+      headerTitle: 'Blogs',
+      footerTitle: 'More',
+      footerLink: 'https://twobytwelve.blogspot.com/',
+      contents: [{
+          title: 'Committed to the wrong branch',
+          image: "fallenice",
+          date: "Jun 2020",
+          imageHref: "https://twobytwelve.blogspot.com/2020/06/committed-to-wrong-branch.html",
+          content: `A blog on the mistakes I did soon after joining in my junior front-end role. Knowing these might help you in avoiding these common mistakes and help you to overcome it.`,
+          links: [{
+            name: 'Read',
+            type: 'blog',
+            href: "https://twobytwelve.blogspot.com/2020/06/committed-to-wrong-branch.html"
+          }]
+        },
+        {
+          title: 'ES11 - The JS Show - Part 2',
+          image: "es11",
+          date: "April 2020",
+          imageHref: "https://twobytwelve.blogspot.com/2020/04/es11-js-show-part-2.html",
+          content: `The most desired features of ES2020 AKA ES11. Every JavaScript developer must be aware on the latest development evolving in their core tech. Here is a blog on the new features of JavaScript.`,
+          links: [{
+            name: 'Read',
+            type: 'blog',
+            href: "https://twobytwelve.blogspot.com/2020/04/es11-js-show-part-2.html"
+          }]
+        },
+        {
+          title: 'A drop of honey',
+          image: "honey",
+          date: "January 2020",
+          imageHref: "https://twobytwelve.blogspot.com/2019/12/a-drop-of-honey.html",
+          content: `A writing which contrasts two different perspectives of two different famous authors on their thoughts on handling people.`,
+          tags: 'JavaScript(VueJS) | HTML | CSS | Hosted on Github pages',
+          links: [{
+              name: 'read',
+              type: 'blog',
+              href: "https://twobytwelve.blogspot.com/2019/12/a-drop-of-honey.html"
+            },
+            {
+              name: 'Code',
+              type: 'code',
+              href: "https://github.com/Balaji1202/WeatherApp"
+            }
+          ]
+        },
+      ]
+    }
+  ],
   navigations: [{
       href: 'home',
       content: `<svg class="nav-logo" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
