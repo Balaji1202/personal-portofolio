@@ -10,10 +10,21 @@
 				<TweetProfileText
 					:eventDate="this.eventDate"
 				/>
-				<div class="event-description">
-					<slot></slot>
+				<div class="event-description" v-html="content"></div>
+				<div
+					v-if="this.extra"
+					class="event-description">
+					<ProjectLinks
+						v-if="this.extra === 'project'"
+						codeName="Github"
+						codeHref="https://github.com/Balaji1202"/>
+					<CoffeeWrapper
+						v-if="this.extra === 'coffee'"/>
+					<ContactTweet
+						v-if="this.extra === 'contact'"/>
 				</div>
 				<TweetImage
+					v-if="this.eventImg"
 					:eventImg="this.eventImg"
 					:tweetImageHref="this.tweetImageHref"/>
 				<EventActions/>
@@ -26,6 +37,9 @@ import PinnedTweet from './PinnedTweet.vue';
 import TweetProfileHandler from './TweetProfileHandler.vue';
 import TweetProfileText from './TweetProfileText.vue';
 import TweetImage from './TweetImage.vue';
+import ProjectLinks from './ProjectLinks.vue';
+import CoffeeWrapper from './CoffeeWrapper.vue'
+import ContactTweet from './ContactTweet.vue';
 import EventActions from './EventActions.vue';
 
 export default {
@@ -34,10 +48,17 @@ export default {
 		EventActions,
 		TweetProfileHandler,
 		TweetImage,
-		TweetProfileText
+		TweetProfileText,
+		ProjectLinks,
+		CoffeeWrapper,
+		ContactTweet
 	},
 	props: {
 		pinnedMessage: {
+			type: String,
+			required: false
+		},
+		content: {
 			type: String,
 			required: false
 		},
@@ -50,6 +71,10 @@ export default {
 			type: String
 		},
 		tweetImageHref: {
+			required: false,
+			type: String
+		},
+		extra: {
 			required: false,
 			type: String
 		}

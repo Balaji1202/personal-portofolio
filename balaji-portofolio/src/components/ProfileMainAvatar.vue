@@ -1,7 +1,7 @@
 <template>
 	<div class="main-avatar-wrapper">
 		<div class="avatar-wrapper">
-			<img class="main-avatar" src="./../assets/balaji-pic.jpg" alt="avatar-main">
+			<img class="main-avatar" :src="this.getImgUrl(this.$root.avatar.img)" alt="avatar-main">
 		</div>
 		<a
 			@click="openFollowIntent"
@@ -18,7 +18,12 @@
 export default {
 	methods: {
 		openFollowIntent() {
-			window.open('https://twitter.com/intent/follow?screen_name=balajisv_', '_blank')
+			window.open(this.$root.avatar.followUrl, '_blank')
+		},
+		getImgUrl(imageSrc) {
+			imageSrc = imageSrc.toLowerCase();
+			var images = require.context('../assets/', false, /\.jpg$/)
+			return images('./' + imageSrc + ".jpg")
 		}
 	}
 }

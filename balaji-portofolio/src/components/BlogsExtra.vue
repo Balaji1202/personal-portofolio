@@ -1,12 +1,11 @@
 <template>
 	<div class="blogs-extra">
 		<BlogContentContainer
-		style="border-top-right-radius:1rem; border-top-left-radius:1rem; pointer-events:none">
+			style="border-top-right-radius:1rem; border-top-left-radius:1rem; pointer-events:none">
 			<span style="font-size: 20px; font-weight:600">
 				Blogs
 			</span>
 		</BlogContentContainer>
-
 		<BlogContentContainer
 			eventImg="fallenice"
 			eventDate="Jun 2020"
@@ -21,7 +20,6 @@
 				blogName="Read"
 			/>
 		</BlogContentContainer>
-	
 		<BlogContentContainer
 			eventImg="es11"
 			eventDate="April 2020"
@@ -36,7 +34,6 @@
 				blogName="Read"
 			/>
 		</BlogContentContainer>
-
 		<BlogContentContainer
 			eventImg="honey"
 			eventDate="January 2020"
@@ -51,10 +48,9 @@
 				blogName="Read"
 			/>
 		</BlogContentContainer>
-
 		<a href="https://twobytwelve.blogspot.com/" target="_blank" style="text-decoration: none">
 			<BlogContentContainer
-			style="border-bottom-right-radius:1rem; border-bottom-left-radius:1rem">
+				style="border-bottom-right-radius:1rem; border-bottom-left-radius:1rem">
 				<span style="font-size: 16px; font-weight:600; color: rgb(29, 161, 242)">
 						More
 				</span>

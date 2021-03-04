@@ -5,8 +5,8 @@
 				<img src="./../assets/balaji-hi.jpeg" alt="" class="header-avatar">
 			</div>
 			<div class="main-text">
-				<span class="name-text">Balaji Saravanan</span>
-				<span class="sub-text">Software Engineer</span>
+				<span class="name-text">{{this.$root.header.name}}</span>
+				<span class="sub-text">{{this.$root.header.subText}}</span>
 			</div>
 			<div class="theme-switcher">
 				<ThemeSwitcher/>

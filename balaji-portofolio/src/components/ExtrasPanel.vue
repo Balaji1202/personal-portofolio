@@ -1,8 +1,10 @@
 <template>
 	<div class="extras-panel">
 		<ExtrasPanelTitle/>
-		<ProjectsExtras/>
-		<BlogsExtra/>
+		<component
+			v-for="(component, index) in this.$root.extras" :key="index"
+			:is="component">
+		</component>
 		<Disclaimer/>
 	</div>
 </template>

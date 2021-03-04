@@ -4,7 +4,7 @@
 			<div class="event-container">
 				<BlogImage
 					:eventImg="this.eventImg"
-					:contentImageHref="this.contentImageHref"/>
+					:tweetImageHref="this.contentImageHref"/>
 				<div class="event-description">
 					<slot></slot>
 				</div>

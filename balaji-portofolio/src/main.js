@@ -1,13 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
-
+import configurations from './configuration.js';
 Vue.config.productionTip = false
 
 new Vue({
   data() {
-    return {
-      isMobile: false
-    }
+    return configurations
   },
   render: h => h(App),
 }).$mount('#app')

@@ -1,7 +1,7 @@
 <template>
 	<div class="disclaimer-text">
 		<strike>Designed and</strike>
-			Developed with &hearts; by Balaji.
+			Developed with &hearts; by <a class="disclaimer-anchor" target="_blank" href="https://balajisv.netlify.app">Balaji</a>.
 		<p>
 			This is a design inspired from
 			<a href="https://twitter.com" class="disclaimer-anchor" target="_blank">
