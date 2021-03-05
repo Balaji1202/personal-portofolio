@@ -2,7 +2,7 @@
 	<div class="header-row" ref="headerRow">
 		<div class="header-panel">
 			<div class="header-avatar-div">
-				<img src="./../assets/balaji-hi.jpeg" alt="" class="header-avatar">
+				<img :src="this.getImgUrl(this.$root.header.image)" alt="" class="header-avatar">
 			</div>
 			<div class="main-text">
 				<span class="name-text">{{this.$root.header.name}}</span>
@@ -20,6 +20,13 @@ import ThemeSwitcher from './ThemeSwitcher.vue'
 export default {
 	components: {
 		ThemeSwitcher
+	},
+	methods: {
+		getImgUrl(imageSrc) {
+			imageSrc = imageSrc.toLowerCase();
+			var images = require.context('../assets/', false, /\.jpg$/)
+			return images('./' + imageSrc + ".jpg")
+		}
 	}
 }
 </script>
@@ -46,7 +53,7 @@ export default {
 	.header-shadow {
 		box-shadow: var(--shadow-header-theme);
 	}
-	.header-panel{
+	.header-panel {
 		display: flex;
 		align-items: center;
 		width: 100%;

@@ -5,13 +5,13 @@
 			@mouseover="hookFunction"
 			@mouseout="hookFunction"
 			class="profile-handler">
-			<img class="profile-image" src="./../assets/balaji-pic-mini.jpg" alt="balajisv_">
+			<img class="profile-image" :src="this.getImgUrl(this.$root.profileHandler.image)" :alt="this.$root.profileHandler.handle">
 			<div class="profile-text">
 				<span class="profile-name">
-					Balaji Saravanan
+					{{this.$root.profileHandler.name}}
 				</span>
 				<span class="profile-handle">
-					@balajisv_
+					{{this.$root.profileHandler.handle}}
 				</span>
 			</div>
 			<div class="profile-link">
@@ -49,7 +49,12 @@ export default {
 			eventTarget.classList.remove('profile-handler-hover');
 		},
 		openTwitter() {
-			window.open('https://twitter.com/balajisv_' ,'_blank')
+			window.open(this.$root.profileHandler.url ,'_blank')
+		},
+		getImgUrl(imageSrc) {
+			imageSrc = imageSrc.toLowerCase();
+			var images = require.context('../assets/', false, /\.jpg$/)
+			return images('./' + imageSrc + ".jpg")
 		}
 	}
 }

@@ -1,7 +1,9 @@
 <template>
 		<div class="navigation-column">
 			<div class="navigations navigation-wrapper">
-				<PageLogo/>
+				<PageLogo
+					type="b"
+				/>
 				<NavigationItem
 					v-for="(navigation, index) in this.$root.navigations" :key="index"
 					:class="{'sub-navs': navigation.subnav}"

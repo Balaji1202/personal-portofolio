@@ -2,7 +2,8 @@ export default {
   mobile: false,
   header: {
     name: 'Balaji Saravanan',
-    subText: 'Software Engineer'
+    subText: 'Software Engineer',
+    image: 'balaji-hi'
   },
   avatar: {
     img: "balaji-pic",
@@ -16,6 +17,12 @@ export default {
     linkName: 'Balaji SV',
     link: 'https://drive.google.com/file/d/1pHXb4El1q4H13CxqdCaSTe-BlX-TmsSx/view?usp=sharing',
     date: 'Feb 12'
+  },
+  profileHandler: {
+    name: 'Balaji Saravanan',
+    handle: '@balajisv_',
+    image: 'balaji-pic-mini',
+    url: 'https://twitter.com/balajisv_'
   },
   tweets: [{
       id: 'about',
@@ -57,21 +64,32 @@ export default {
       pinnedMsg: 'Projects',
       eventDate: 'I can do this all day',
       content: `Some clutters in the name of personal and pet projects really helped in honing my knowledge of front-end technologies and in having some grasp on full stack technologies.<br/><br/>Have a look at those in the repo.`,
-      extra: 'project'
+      extra: {
+        type: 'project',
+        links: [{
+          name: 'Github',
+          href: 'https://github.com/Balaji1202',
+          type: 'code'
+        }]
+      }
     },
     {
       id: 'coffee',
       pinnedMsg: 'Coffee?',
       eventDate: 'Always',
       content: ``,
-      extra: 'coffee'
+      extra: {
+        type: 'coffee'
+      }
     },
     {
       id: 'contact',
       pinnedMsg: 'Contact',
       eventDate: 'Anytime',
       content: `You can find and reach out to me through some mediums here!`,
-      extra: 'contact'
+      extra: {
+        type: 'contact'
+      }
     }
   ],
   extras: [{
@@ -236,5 +254,18 @@ export default {
       icon: 'coffee'
     }
 
-  ]
+  ],
+  contacts: [{
+    href: 'https://www.linkedin.com/in/balaji-saravanan/',
+    logo: 'linkedin'
+  }, {
+    href: 'https://twitter.com/balajisv_/',
+    logo: 'twitter'
+  }, {
+    href: 'mailto:balajilitsv@gmail.com',
+    logo: 'mail'
+  }, {
+    href: 'https://www.instagram.com/_balajisv_/',
+    logo: 'instagram'
+  }]
 }

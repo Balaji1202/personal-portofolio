@@ -10,8 +10,8 @@
         />
         </template>
         <template
-        class="coffee-container"
-        v-if="this.coffeeConfirmed">
+            class="coffee-container"
+            v-if="this.coffeeConfirmed">
         <div>
             <p>
             Thanks for showing your interest in discussing with me about something that matters.
@@ -55,3 +55,24 @@ export default {
 	},
 }
 </script>
+
+<style scoped>
+.coffee-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.svg-column {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem
+}
+.coffee-logo {
+    width: 5rem;
+    height: 5rem;
+    fill: var(--theme-base-text);
+    transition: 0.5s;
+    margin-left: auto;
+}
+</style>

@@ -1,6 +1,18 @@
 <template>
-	<img class="profile-image" src="./../assets/balaji-pic-mini.jpg" alt="balajisv_">
+	<img class="profile-image" :src="this.getImgUrl(this.$root.profileHandler.image)" :alt="this.$root.profileHandler.handle">
 </template>
+
+<script>
+export default {
+	methods: {
+		getImgUrl(imageSrc) {
+			imageSrc = imageSrc.toLowerCase();
+			var images = require.context('../assets/', false, /\.jpg$/)
+			return images('./' + imageSrc + ".jpg")
+		}
+	}
+}
+</script>
 
 <style lang="css" scoped>
 .profile-image {

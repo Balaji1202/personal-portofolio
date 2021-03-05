@@ -58,24 +58,6 @@ export default {
 	.main-col-wrap {
 		display: none;
 	}
-	.coffee-container {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-start;
-	}
-	.svg-column {
-		width: 100%;
-		text-align: center;
-		margin-top: 1rem
-	}
-	.coffee-logo {
-		width: 5rem;
-		height: 5rem;
-		fill: var(--theme-base-text);
-		transition: 0.5s;
-		margin-left: auto;
-	}
 	@media (max-width: 839px) {
 		.main-col-wrap {
 			display: block;

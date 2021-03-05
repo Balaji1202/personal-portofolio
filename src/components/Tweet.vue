@@ -15,16 +15,12 @@
 					v-if="this.extra"
 					class="event-description">
 					<ExtrasLink
-						v-if="this.extra === 'project'"
-						:links="[{
-							name: 'Github',
-							href: 'https://github.com/Balaji1202',
-							type: 'code'
-						}]"/>
+						v-if="this.extra.type === 'project'"
+						:links="this.extra.links"/>
 					<CoffeeWrapper
-						v-if="this.extra === 'coffee'"/>
+						v-if="this.extra.type === 'coffee'"/>
 					<ContactTweet
-						v-if="this.extra === 'contact'"/>
+						v-if="this.extra.type === 'contact'"/>
 				</div>
 				<TweetImage
 					v-if="this.eventImg"
@@ -79,7 +75,7 @@ export default {
 		},
 		extra: {
 			required: false,
-			type: String
+			type: Object
 		}
 	}
 }
