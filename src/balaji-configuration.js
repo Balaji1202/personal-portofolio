@@ -3,7 +3,8 @@ export default {
   header: {
     name: 'Balaji Saravanan',
     subText: 'Software Engineer',
-    image: 'balaji-hi'
+    image: 'balaji-hi',
+    background: 'header-background'
   },
   avatar: {
     img: "balaji-pic",

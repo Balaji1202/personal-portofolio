@@ -63,7 +63,7 @@ export default {
 <style scoped>
 
 .profile-handler-row {
-	width: max-content;
+	width: 16rem;
 	position: absolute;
 	bottom: 1rem;
 }
@@ -72,10 +72,11 @@ export default {
 	flex-direction: row;
 	align-items: center;
 	border-radius: 9999px;
-	padding: 0.5rem;
+	padding: 0.5rem 1rem;
 	cursor: pointer;
 	text-decoration: none;
 	color: var(--theme-base-text);
+	width: 90%;
 }
 .profile-handler-hover {
 	background-color: var(--theme-base-hover);
@@ -103,7 +104,7 @@ export default {
 	color: rgb(101, 119, 134);
 }
 .profile-link{
-	padding: 0 0.2rem 0 1.7rem;
+	margin-left: auto;
 }
 .external-link-fill {
 	fill: var(--theme-base-text);

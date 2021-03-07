@@ -2,27 +2,28 @@ export default {
   mobile: false,
   header: {
     name: 'Zoho',
-    subText: 'Software Engineer',
-    image: 'balaji-hi'
+    subText: 'Software is our craft',
+    image: 'zoho-pic-mini',
+    background: 'zoho-background'
   },
   avatar: {
-    img: "balaji-pic",
-    followUrl: 'https://twitter.com/intent/follow?screen_name=balajisv_'
+    img: "zoho-profile",
+    followUrl: 'https://twitter.com/intent/follow?screen_name=Zoho'
   },
   profile: {
-    name: 'Balaji Saravanan',
-    handle: '@balajisv_',
-    desc: 'Software Engineer @ Zoho | Front-end developer | Vue JS enthusiast | Blogger | Orator',
-    location: 'Coimbatore, India',
-    linkName: 'Balaji SV',
-    link: 'https://drive.google.com/file/d/1pHXb4El1q4H13CxqdCaSTe-BlX-TmsSx/view?usp=sharing',
-    date: 'Feb 12'
+    name: 'Zoho',
+    handle: '@Zoho',
+    desc: `Your Life's Work, Powered By Our Life's Work`,
+    location: 'Chennai, India | Austin, USA',
+    linkName: 'zoho.com',
+    link: 'https://www.zoho.com/',
+    date: '1996'
   },
   profileHandler: {
-    name: 'Balaji Saravanan',
-    handle: '@balajisv_',
-    image: 'balaji-pic-mini',
-    url: 'https://twitter.com/balajisv_'
+    name: 'Zoho',
+    handle: '@Zoho',
+    image: 'zoho-pic-mini',
+    url: 'https://twitter.com/Zoho'
   },
   tweets: [{
       id: 'about',

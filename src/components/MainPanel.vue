@@ -3,7 +3,7 @@
 		<HeaderPanel/>
 		<div class="main-content">
 			<div id="home" class="header-banner">
-				<img class="header-image" src="./../assets/header-background.jpg" alt="">
+				<img class="header-image" :src="this.getImgUrl(this.$root.header.background)" alt="">
 			</div>
 			<ProfileMainAvatar/>
 			<MainProfileInfo id="explore"/>
@@ -38,6 +38,13 @@ export default {
 		MainProfileInfo,
 		Tweet,
 		ExtrasPanel
+	},
+	methods: {
+		getImgUrl(imageSrc) {
+			imageSrc = imageSrc.toLowerCase();
+			var images = require.context('../assets/', false, /\.jpg$/)
+			return images('./' + imageSrc + ".jpg")
+		}
 	}
 }
 </script>
