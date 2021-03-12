@@ -4,7 +4,10 @@ export default {
     name: 'Balaji Saravanan',
     subText: 'Software Engineer',
     image: 'balaji-hi',
-    background: 'header-background'
+    background: 'header-background',
+    logo: {
+      type: 'b'
+    }
   },
   avatar: {
     img: "balaji-pic",
@@ -194,16 +197,10 @@ export default {
           content: `A writing which contrasts two different perspectives of two different famous authors on their thoughts on handling people.`,
           tags: 'JavaScript(VueJS) | HTML | CSS | Hosted on Github pages',
           links: [{
-              name: 'read',
-              type: 'blog',
-              href: "https://twobytwelve.blogspot.com/2019/12/a-drop-of-honey.html"
-            },
-            {
-              name: 'Code',
-              type: 'code',
-              href: "https://github.com/Balaji1202/WeatherApp"
-            }
-          ]
+            name: 'read',
+            type: 'blog',
+            href: "https://twobytwelve.blogspot.com/2019/12/a-drop-of-honey.html"
+          }]
         },
       ]
     }

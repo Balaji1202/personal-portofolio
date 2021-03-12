@@ -1,8 +1,9 @@
 <template>
-		<div class="navigation-column">
+		<div class="navigation-column" :class="{'non-logo-margin': !this.$root.header.logo}">
 			<div class="navigations navigation-wrapper">
 				<PageLogo
-					type="b"
+					v-if="this.$root.header.logo"
+					:logo="this.$root.header.logo"
 				/>
 				<NavigationItem
 					v-for="(navigation, index) in this.$root.navigations" :key="index"
@@ -13,7 +14,9 @@
 						:icon="navigation.icon"
 					/>
 				</NavigationItem>
-				<ContactButton/>
+				<ContactButton
+					v-if="this.$root.contacts"
+				/>
 				<ProfileHandler/>
 			</div>
 		</div>
@@ -51,6 +54,9 @@ export default {
 .navigations {
 	display: flex;
 	flex-direction: column;
+}
+.non-logo-margin {
+	margin-top: 2rem
 }
 @media (max-width: 1300px) {
 	.navigation-column {

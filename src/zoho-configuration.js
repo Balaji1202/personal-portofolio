@@ -29,68 +29,138 @@ export default {
       id: 'about',
       pinnedMsg: 'About',
       eventDate: 'Forever',
-      content: `I'm a Front-End Web Developer who loves solving potential front-end problems, along with designing and developing creative UIs and applications.<br><br>Loves to blog, read, and speak on stages.<br><br>Would love to build something daily on Vue JS.<br/><br/>Very inquisitive on creating good designs and optimized webapps and websites.`
+      content: `Software is our craft and our passion. At Zoho, we create beautiful software to solve business problems. We believe that software is the ultimate product of the mind and the hands. <br><br>But as much as we love building beautiful software, we think our people and company culture are our most important assets. Our engineers spend years mastering their craft, bringing together decades of engineering expertise to produce a real work of art.`
     },
     {
-      id: 'work',
-      pinnedMsg: 'Work',
-      eventDate: 'May, 2019 - Present',
-      eventImg: 'zoho',
-      tweetImgHref: 'https://www.youtube.com/watch?v=j-DV1KZZmwc',
-      content: `Currently working as a Front-End Engineer at Zoho Corporation, Chennai.<br/><br/>Zoho corporation has 45+ products powering various Enterprises and Businesses all over the world, with over an 50 Million users. Those products nearly act as an Operating System to those businesses.<br/><br/>Among those 45+ products, I'm currently working in a product, with a great team, solving potential front-end problems with ground-breaking, clean, and performance-oriented solutions.`
+      id: 'journey',
+      pinnedMsg: 'Journey',
+      eventDate: 'From 1996',
+      content: `Zoho wasn't built in a day. Fasten your seat belts for the exciting journey. &#128467;&#65039;`
     },
     {
-      id: 'education',
-      pinnedMsg: 'Education',
-      eventImg: 'education',
-      eventDate: '2016 - 2020',
-      content: `Did my Bachelors in Computer Science and Engineering in Kongu Engineering College, affliated to Anna University, Tamilnadu.`
+      eventDate: '2021',
+      content: `60 Million and counting. <br><br> Trusted by over 60 Million users globally.`,
+      eventImg: '60mill',
     },
     {
-      id: 'experience',
-      pinnedMsg: 'Experience',
-      eventDate: 'July, 2020 - Present',
-      content: `Member Technical Staff at Zoho Corporation.<br/><br/>Working in an interesting and fast paced product as a Front-End Engineer.<br/><br/>Standing in the shoes of a Front-end Software engineer at Zoho to solve and develop features to various problems, with an effort to bring good user experience and solutions to customers.`
+      eventDate: '2020',
+      content: `A lot has happened in this year, a year to be remembered, and as well as to be forgetten. <br><br>Covid hit us. We all flew back to our hometowns. <br><br>Zoho gave hands to the needed in various ways. Launced ESAP, Zoho Remotely, BackToWork, and not to mention, also donated 25 crores as Covid relief funds.`
     },
     {
-      eventDate: 'July, 2019 - July, 2020',
-      content: `Project Trainee at Zoho Corporation.<br/><br/>Got to train and hone myself in the various Front-end technologies and contributed to a great product in a great team.<br/><br/>Fell in love with front-end technologies.`
+      eventDate: '2020',
+      content: `Added 5 different products to the basket in this year. Transmail, TeamInbox, Toolkit, Remotely, BackToWork. &#127881;`
     },
     {
-      eventDate: 'May, 2019 - July, 2019',
-      content: `Summer Intern at Zoho Corporation.<br/><br/>Joined Zoho, the Indian Software giant, as a Summer intern where I spent some beautiful days with..... HTML, CSS, JS, and other front-end tech and tools.<br>Came to know about interesting software engineering and project management process.`
+      eventDate: 'Sep, 2020',
+      content: `Introduced Puvi – A down-to-earth font from Zoho.`,
+      eventImg: 'puvi',
+      tweetImgHref: 'https://youtu.be/N9EObM0A2mA',
     },
     {
-      id: 'projects',
-      pinnedMsg: 'Projects',
-      eventDate: 'I can do this all day',
-      content: `Some clutters in the name of personal and pet projects really helped in honing my knowledge of front-end technologies and in having some grasp on full stack technologies.<br/><br/>Have a look at those in the repo.`,
-      extra: {
-        type: 'project',
-        links: [{
-          name: 'Github',
-          href: 'https://github.com/Balaji1202',
-          type: 'code'
-        }]
-      }
+      eventDate: '2019',
+      content: `Launched Commerce, Orchestly, MarketingHub and WorkDrive in this year. &#128378;`
     },
     {
-      id: 'coffee',
-      pinnedMsg: 'Coffee?',
-      eventDate: 'Always',
-      content: ``,
-      extra: {
-        type: 'coffee'
-      }
+      eventDate: '2019',
+      content: `The reflection of our passion made us reach this.`,
+      eventImg: '50mill'
     },
     {
-      id: 'contact',
-      pinnedMsg: 'Contact',
-      eventDate: 'Anytime',
-      content: `You can find and reach out to me through some mediums here!`,
-      extra: {
-        type: 'contact'
-      }
+      eventDate: '2018',
+      content: `We added few gems to our crown. Zia Voice, BackStage, Analytics with powerful data blending and AI, Pagesense, Flow. &#127881;`,
+    },
+    {
+      eventDate: '2018',
+      content: `More power and responsiblity as we welcomed new users.`,
+      eventImg: '30mill'
+    },
+    {
+      eventDate: '2017',
+      content: `More products in the arena. Checkout, PhoneBridge, Zia, Workplace, FinancePlus, Sign, Cliq, Sprints. &#128378;`,
+    },
+    {
+      eventDate: 'July, 2017',
+      content: `We introduced Zoho one, a revolutionary all-in-one app suite.`,
+      eventImg: 'zohoone',
+      tweetImgHref: 'https://www.zoho.com/one/'
+    },
+    {
+      eventDate: '2016',
+      content: `Added few products in to the basket in this year. Desk, Notebook, SalesInbox, Marketplace, Zoho Developer. &#129346;`
+    },
+    {
+      eventDate: '2016',
+      content: `It's already 20 Million.`,
+      eventImg: '20mill'
+    },
+    {
+      eventDate: '2015',
+      content: `A busy year for us, with 6 applications across sales, marketing, communication, and finance being developed. Social, Expense, ShowTime, Forms, Inventory, Motivator. &#128104;&#8205;&#128187;`
+    },
+    {
+      eventDate: '2015',
+      content: `It was 2015 as we reached our 15 Million user base.`,
+      eventImg: '15mill'
+    },
+    {
+      eventDate: '2014',
+      content: `Launched Subscription, SalesIQ, CRM Plus this year. &#129346;`
+    },
+    {
+      eventDate: '2013',
+      content: `Connect, Survey, Vault, ContactManager being pulled into our arena. &#127881;`
+    },
+    {
+      eventDate: 'Mar, 2012',
+      content: `Our first ever day-long user conference, in the U.S. Zoholics`,
+      eventImg: 'zoholics',
+      tweetImgHref: 'https://www.zoho.com/zoholics/'
+    },
+    {
+      eventDate: '2012',
+      content: `Few more gems to the crown. Campaign and Sites.&#127881;`
+    },
+    {
+      eventDate: '2011',
+      content: `Launched Zoho Books, and Bug Tracker in this year.&#128378;`
+    },
+    {
+      eventDate: '2010',
+      content: `More products in the party &#129346;. Zoho Support(Now called Zoho Desk), and Zoho Calendar.`
+    },
+    {
+      eventDate: 'May, 2009',
+      content: `Adventnet rechristend as Zoho Corporation.`,
+      eventImg: 'zohocorp'
+    },
+    {
+      eventDate: '2009',
+      content: `Introduced Assist, Analytics, Recruit in this year. &#127871;`
+    },
+    {
+      eventDate: 'Aug, 2008',
+      content: `We reached our first million.`,
+      eventImg: '1mill'
+    },
+    {
+      eventDate: '2007',
+      content: `Few more gems to the crown. Meeting and Docs. &#128378;`
+    },
+    {
+      eventDate: '2006',
+      content: `A rock solid combo of products been introduced in this year. Sheet, Creator, Show and Projects. &#127881;`
+    },
+    {
+      eventDate: '2005',
+      content: `Our first few applications. Writer, our first leep into Cloud applications and CRM, our one of the best-selling products, launched in this year. &#129346;`
+    },
+    {
+      eventDate: 'Jun, 2001',
+      content: `AdventNet Inc. made its international presence by expanding official operations in Japan. It was the booming Japanese market that led to this expansion.`
+    },
+    {
+      eventDate: '1996',
+      content: `It all started here. AdventNet Inc. was born.`
     }
   ],
   extras: [{
@@ -194,16 +264,10 @@ export default {
           content: `A writing which contrasts two different perspectives of two different famous authors on their thoughts on handling people.`,
           tags: 'JavaScript(VueJS) | HTML | CSS | Hosted on Github pages',
           links: [{
-              name: 'read',
-              type: 'blog',
-              href: "https://twobytwelve.blogspot.com/2019/12/a-drop-of-honey.html"
-            },
-            {
-              name: 'Code',
-              type: 'code',
-              href: "https://github.com/Balaji1202/WeatherApp"
-            }
-          ]
+            name: 'Read',
+            type: 'blog',
+            href: "https://twobytwelve.blogspot.com/2019/12/a-drop-of-honey.html"
+          }]
         },
       ]
     }
@@ -220,53 +284,19 @@ export default {
     },
     {
       href: 'about',
-      subnav: true,
       name: 'About',
-      icon: 'about'
+      icon: 'building',
     },
     {
-      href: 'work',
-      subnav: true,
-      name: 'Work',
-      icon: 'work'
+      href: 'journey',
+      name: 'Journey',
+      icon: 'path',
     },
     {
-      href: 'education',
+      href: 'moments',
+      name: 'Moments',
+      icon: 'moment',
       subnav: true,
-      name: 'Education',
-      icon: 'education'
-    },
-    {
-      href: 'experience',
-      subnav: true,
-      name: 'Experience',
-      icon: 'experience'
-    },
-    {
-      href: 'projects',
-      subnav: true,
-      name: 'Projects',
-      icon: 'project'
-    },
-    {
-      href: 'coffee',
-      subnav: true,
-      name: 'Coffee?',
-      icon: 'coffee'
     }
-
-  ],
-  contacts: [{
-    href: 'https://www.linkedin.com/in/balaji-saravanan/',
-    logo: 'linkedin'
-  }, {
-    href: 'https://twitter.com/balajisv_/',
-    logo: 'twitter'
-  }, {
-    href: 'mailto:balajilitsv@gmail.com',
-    logo: 'mail'
-  }, {
-    href: 'https://www.instagram.com/_balajisv_/',
-    logo: 'instagram'
-  }]
+  ]
 }

@@ -97,6 +97,10 @@ export default {
 	font-size: 15px;
 	font-weight: bold;
 	padding: 0.1rem;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 7rem;
 }
 .profile-handle {
 	font-size: 15px;
@@ -116,12 +120,23 @@ export default {
 	.profile-link {
 		display: none;
 	}
+	.profile-handler-row {
+		width: initial;
+	}
+	.profile-handler {
+		padding: 0.5rem;
+		width: initial;
+	}
 }
 @media (max-height: 670px) {
 	.profile-handler-row {
 		position: inherit;
 		margin-top: 1.5rem;
 		padding-bottom: 1rem;
+	}
+	.profile-handler {
+		padding: 0.5rem;
+		width: 90%;
 	}
 }
 @media(max-width: 520px) {
@@ -130,6 +145,9 @@ export default {
 		margin-top: 0;
 		bottom: 0;
 		padding-bottom: 0rem;
+	}
+	.profile-handler {
+		width: initial;
 	}
 }
 </style>
