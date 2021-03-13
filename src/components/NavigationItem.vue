@@ -59,7 +59,10 @@ export default {
 			id = id.slice(0, navigationIndex);
 			let idDom = document.getElementById(id);
 			let blockPosition = 'center'
-			idDom.scrollIntoView({block: blockPosition, behavior: "smooth"});
+			idDom.scrollIntoView({block: blockPosition, behavior: 'smooth'});
+			setTimeout(() => {
+				idDom.scrollIntoView({block: blockPosition});
+			}, 300);
 		},
 		navLinkClicked(eventTarget) {
 			this.scrollIntoSection(eventTarget);
