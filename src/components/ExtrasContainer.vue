@@ -1,6 +1,6 @@
 <template>
   <div class="extras-wrapper">
-    <ExtrasHeader :headerTitle="headerTitle" />
+    <ExtrasHeader :headerTitle="headerTitle" :image="image" />
     <template
 		v-if="type==='projects'">
 		<ProjectContentContainer
@@ -47,6 +47,10 @@ export default {
     ExtrasFooter
   },
   props: {
+	image: {
+		type: String,
+		required: false
+	},
     headerTitle: {
       type: String,
       required: true

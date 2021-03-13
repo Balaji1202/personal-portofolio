@@ -7,6 +7,7 @@
 			:footerTitle="extra.footerTitle"
 			:footerLink="extra.footerLink"
 			:headerTitle="extra.headerTitle"
+			:image="extra.image"
 			:type="extra.type"
 		/>
 		<Disclaimer/>

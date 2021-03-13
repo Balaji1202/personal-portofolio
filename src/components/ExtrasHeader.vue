@@ -14,17 +14,27 @@
             {{ headerTitle }}
           </span>
         </div>
+        <TweetImage
+            :eventImg="this.image"/>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import TweetImage from './TweetImage.vue'
 export default {
+    components: {
+      TweetImage
+    },
     props: {
         headerTitle: {
             type: String,
             required: true
+        },
+        image: {
+          type: String,
+          required: false
         }
     }
 }

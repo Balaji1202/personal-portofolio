@@ -35,7 +35,7 @@ export default {
       id: 'journey',
       pinnedMsg: 'Journey',
       eventDate: 'From 1996',
-      content: `Zoho wasn't built in a day. Fasten your seat belts for the exciting journey. &#128467;&#65039;`
+      content: `Zoho wasn't built in a day. Fasten your seat belts for the exciting journey. &#127906;`
     },
     {
       eventDate: '2021',
@@ -44,7 +44,7 @@ export default {
     },
     {
       eventDate: '2020',
-      content: `A lot has happened in this year, a year to be remembered, and as well as to be forgetten. <br><br>Covid hit us. We all flew back to our hometowns. <br><br>Zoho gave hands to the needed in various ways. Launced ESAP, Zoho Remotely, BackToWork, and not to mention, also donated 25 crores as Covid relief funds.`
+      content: `A lot has happened in this year, a year to be remembered for our resilience, and as well as to be forgetten for its adversity.<br><br>Zoho gave hands to the needed in various ways. Launced ESAP, Zoho Remotely, BackToWork, Zoho Class and not to mention, donated 25 crores as Covid relief funds.`
     },
     {
       eventDate: '2020',
@@ -67,7 +67,7 @@ export default {
     },
     {
       eventDate: '2018',
-      content: `We added few gems to our crown. Zia Voice, BackStage, Analytics with powerful data blending and AI, Pagesense, Flow. &#127881;`,
+      content: `We added few gems to our crown in this year. Zia Voice, BackStage, Analytics with powerful data blending and AI, Pagesense, Flow. &#127881;`,
     },
     {
       eventDate: '2018',
@@ -76,7 +76,7 @@ export default {
     },
     {
       eventDate: '2017',
-      content: `More products in the arena. Checkout, PhoneBridge, Zia, Workplace, FinancePlus, Sign, Cliq, Sprints. &#128378;`,
+      content: `More products in the arena for 2017. Checkout, PhoneBridge, Zia, Workplace, FinancePlus, Sign, Cliq, Sprints. &#128378;`,
     },
     {
       eventDate: 'July, 2017',
@@ -90,7 +90,7 @@ export default {
     },
     {
       eventDate: '2016',
-      content: `It's already 20 Million.`,
+      content: `It was already 20 Million.`,
       eventImg: '20mill'
     },
     {
@@ -108,17 +108,17 @@ export default {
     },
     {
       eventDate: '2013',
-      content: `Connect, Survey, Vault, ContactManager being pulled into our arena. &#127881;`
+      content: `Connect, Survey, Vault, ContactManager being pulled into our arena for 2013. &#127881;`
     },
     {
       eventDate: 'Mar, 2012',
-      content: `Our first ever day-long user conference, in the U.S. Zoholics`,
+      content: `Zoholics, our first ever day-long user conference, in the U.S.`,
       eventImg: 'zoholics',
       tweetImgHref: 'https://www.zoho.com/zoholics/'
     },
     {
       eventDate: '2012',
-      content: `Few more gems to the crown. Campaign and Sites.&#127881;`
+      content: `Few more gems to the crown in this year. Campaign and Sites.&#127881;`
     },
     {
       eventDate: '2011',
@@ -126,7 +126,7 @@ export default {
     },
     {
       eventDate: '2010',
-      content: `More products in the party &#129346;. Zoho Support(Now called Zoho Desk), and Zoho Calendar.`
+      content: `More products into the party in this year &#129346;. Zoho Support(Now called Zoho Desk), and Zoho Calendar.`
     },
     {
       eventDate: 'May, 2009',
@@ -144,15 +144,15 @@ export default {
     },
     {
       eventDate: '2007',
-      content: `Few more gems to the crown. Meeting and Docs. &#128378;`
+      content: `Few more gems to the crown in this year. Meeting and Docs. &#128378;`
     },
     {
       eventDate: '2006',
-      content: `A rock solid combo of products been introduced in this year. Sheet, Creator, Show and Projects. &#127881;`
+      content: `Our first few applications being introduced in this year. Sheet, Creator, Show and Projects. &#127881;`
     },
     {
       eventDate: '2005',
-      content: `Our first few applications. Writer, our first leep into Cloud applications and CRM, our one of the best-selling products, launched in this year. &#129346;`
+      content: `Introduced Writer and CRM. Our leap into Cloud applications and our one of the best-selling products. &#129346;`
     },
     {
       eventDate: 'Jun, 2001',
@@ -161,112 +161,105 @@ export default {
     {
       eventDate: '1996',
       content: `It all started here. AdventNet Inc. was born.`
+    },
+    {
+      id: 'moments',
+      pinnedMsg: 'Moments',
+      eventDate: 'Jan, 2021',
+      content: `A moment of great honor and pride—the Government of India has bestowed the prestigious Padma Shri on our CEO!`,
+      eventImg: 'padmasri-svembu'
+    },
+    {
+      eventDate: 'Aug, 2020',
+      content: `Five apps from Zoho stand tall as winners in the Office and Business categories of AatmaNirbhar Bharat App Innovation Challenge: Zoho Cliq, Zoho Workplace, Zoho Invoice, Zoho Expense, and Zoho Books.`,
+      eventImg: 'aatmanirbhar-apps'
     }
   ],
   extras: [{
       type: 'projects',
-      headerTitle: 'Projects',
+      headerTitle: 'Zoho in the news',
+      image: 'zoho-news',
       footerTitle: 'More',
-      footerLink: 'https://github.com/Balaji1202?tab=repositories',
+      footerLink: 'https://www.zoho.com/press.html',
       contents: [{
-          title: 'Mocked APIs',
-          image: "mockapis",
-          date: "May 2020",
-          imageHref: "https://mock-apis-balaji.herokuapp.com/",
-          content: `Thousands of mocked data over various categories absolutely free for development purpose without any restrictions.`,
-          tags: 'JavaScript(VueJS) | HTML | CSS | NodeJS | MongoDB | Hosted on Heroku',
+          title: `We're going rural everywhere (in the World): Sridhar Vembu`,
+          date: "Jan, 2021",
+          content: `Days after being conferred with the Padma Shri, founder and chief executive of software development firm Zoho Corp Sridhar Vembu speaks to Forbes India about their new instant messaging app Arattai, privacy concerns over WhatsApp and a new school initiative in the village in Tenkasi district (Tamil Nadu).`,
           links: [{
-              name: 'Live',
-              type: 'live',
-              href: "https://mock-apis-balaji.herokuapp.com/"
-            },
-            {
-              name: 'Code',
-              type: 'code',
-              href: "https://github.com/Balaji1202/mock-apis"
-            }
-          ]
+            name: 'Read',
+            type: 'blog',
+            href: "https://www.forbesindia.com/article/special/were-going-rural-everywhere-(in-the-world)-sridhar-vembu/66131/1"
+          }]
         },
         {
-          title: 'Tic-Tac-Toe',
-          image: "tictactoe",
-          date: "April 2020",
-          imageHref: "https://balaji1202.github.io/TicTacToe/src/index.html",
-          content: `A paperless Tic-Tac-Toe game where you could play with your friend or with the inbuilt AI friend.`,
-          tags: 'JavaScript(VueJS) | HTML | CSS | Hosted on Github pages',
+          title: 'Zoho Launches ESAP',
+          date: "March, 2020",
+          content: `Zoho Corporation, a global company that offers the most comprehensive suite of business software applications in the industry, is launching its Small Business Emergency Subscription Assistance Program (ESAP) to help Zoho customers worldwide weather this global crisis.`,
           links: [{
-              name: 'Live',
-              type: 'live',
-              href: "https://balaji1202.github.io/TicTacToe/src/index.html"
-            },
-            {
-              name: 'Code',
-              type: 'code',
-              href: "https://github.com/Balaji1202/TicTacToe"
-            }
-          ]
+            name: 'Read',
+            type: 'blog',
+            href: "https://www.zoho.com/news/zoho-launches-small-business-emergency-subscriptions.html"
+          }]
         },
         {
-          title: 'Your weather',
-          image: "weather",
-          date: "March 2020",
-          imageHref: "https://balaji1202.github.io/WeatherApp/src/index.html",
-          content: `A weather app which lets you know your location's current weather in an animated format.`,
-          tags: 'JavaScript(VueJS) | HTML | CSS | Hosted on Github pages',
+          title: 'Zoho Charges Ahead with 50 Million Business Users',
+          date: "Nov, 2019",
+          content: `Zoho Corporation, a global, privately held company that offers the most comprehensive suite of business software applications in the industry, is thrilled to announce today another historic milestone for the company: 50 million business users.`,
           links: [{
-              name: 'Live',
-              type: 'live',
-              href: "https://balaji1202.github.io/WeatherApp/src/index.html"
-            },
-            {
-              name: 'Code',
-              type: 'code',
-              href: "https://github.com/Balaji1202/WeatherApp"
-            }
-          ]
+            name: 'Read',
+            type: 'blog',
+            href: "https://www.zoho.com/news/zoho-charges-ahead-with-50-million-business-users.html"
+          }]
         },
+        {
+          title: 'Zoho makes a huge leap with Zoho One',
+          date: "Jul, 2015",
+          content: `Zoho today introduced Zoho One, an all-in-one suite of applications to run an entire business—across every function and organizational group. Zoho One includes more than 35 integrated web applications and an equal number of mobile apps—under a single sign-on and with centralized administration and provisioning—making it a true operating system for a business.`,
+          links: [{
+            name: 'Read',
+            type: 'blog',
+            href: "https://www.zoho.com/news/the-operating-system-for-business-makes-a-giant-leap-with-zoho-one.html"
+          }]
+        }
       ]
     },
     {
       type: 'blogs',
       headerTitle: 'Blogs',
       footerTitle: 'More',
-      footerLink: 'https://twobytwelve.blogspot.com/',
+      footerLink: 'https://www.zoho.com/perspectives/',
       contents: [{
-          title: 'Committed to the wrong branch',
-          image: "fallenice",
-          date: "Jun 2020",
-          imageHref: "https://twobytwelve.blogspot.com/2020/06/committed-to-wrong-branch.html",
-          content: `A blog on the mistakes I did soon after joining in my junior front-end role. Knowing these might help you in avoiding these common mistakes and help you to overcome it.`,
+          title: 'How 8000 of us at Zoho—across 12 offices—went remote in 3 days',
+          date: "Apr, 2020",
+          content: `With the outbreak of COVID-19, and how uncertain the following days and weeks looked, we made a conscious decision to start working remotely. 8000+ employees, spread across 12 offices in several countries, serving over 50 million users across the globe…all making a sudden transition to working-from-home?`,
+          image: 'remotely',
+          imageHref: 'https://www.zoho.com/blog/general/how-zoho-went-remote-on-zoho.html',
           links: [{
             name: 'Read',
             type: 'blog',
-            href: "https://twobytwelve.blogspot.com/2020/06/committed-to-wrong-branch.html"
+            href: "https://www.zoho.com/blog/general/how-zoho-went-remote-on-zoho.html"
           }]
         },
         {
-          title: 'ES11 - The JS Show - Part 2',
-          image: "es11",
-          date: "April 2020",
-          imageHref: "https://twobytwelve.blogspot.com/2020/04/es11-js-show-part-2.html",
-          content: `The most desired features of ES2020 AKA ES11. Every JavaScript developer must be aware on the latest development evolving in their core tech. Here is a blog on the new features of JavaScript.`,
+          title: 'The art of software',
+          image: "software-art",
+          imageHref: "https://www.zoho.com/perspectives/the-art-of-software.html",
+          content: `In the age of mass production, craftsmanship is a rarity. Why? Because craftsmanship takes time. It takes patience. It takes a deep, personal connection to the product, and an understanding of the needs it fulfills. Read how Zoho crafts it's products.`,
           links: [{
             name: 'Read',
             type: 'blog',
-            href: "https://twobytwelve.blogspot.com/2020/04/es11-js-show-part-2.html"
+            href: "https://www.zoho.com/perspectives/the-art-of-software.html"
           }]
         },
         {
-          title: 'A drop of honey',
-          image: "honey",
-          date: "January 2020",
-          imageHref: "https://twobytwelve.blogspot.com/2019/12/a-drop-of-honey.html",
-          content: `A writing which contrasts two different perspectives of two different famous authors on their thoughts on handling people.`,
-          tags: 'JavaScript(VueJS) | HTML | CSS | Hosted on Github pages',
+          title: 'Building a business for the long term',
+          image: "business-longterm",
+          imageHref: "https://www.zoho.com/perspectives/business.html",
+          content: `About Zoho’s company culture, and how it influences the ways we treat customers, employees and spend money. We are in it for the long run.`,
           links: [{
             name: 'Read',
             type: 'blog',
-            href: "https://twobytwelve.blogspot.com/2019/12/a-drop-of-honey.html"
+            href: "https://www.zoho.com/perspectives/business.html"
           }]
         },
       ]

@@ -1,11 +1,11 @@
 <template>
-		<a :href="this.contentImageHref" target="_blank">
+		<a :href="this.tweetImageHref" target="_blank">
 			<div class="tweet-image-container">
 				<img
 					loading="lazy"
 					class="event-image"
 					v-if="eventImg"
-				:src="this.getImgUrl(eventImg)" alt="event-image">
+					:src="this.getImgUrl(eventImg)" alt="event-image">
 			</div>
 		</a>
 </template>
@@ -17,7 +17,7 @@ export default {
 			type: String,
 			required: false
 		},
-		contentImageHref: {
+		tweetImageHref: {
 			type: String,
 			required: false
 		}

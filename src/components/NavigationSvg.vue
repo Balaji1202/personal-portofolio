@@ -122,7 +122,7 @@
     <svg
         v-else-if="icon==='moment'"
         class="nav-logo" viewBox="0 0 485 485" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g id="moment">
+        <g id="moment-svg">
             <g id="background">
                 <path class="svg-theme-background" d="M427.382 413.475H470.59V356.006H427.382V413.475Z"/>
                 <path class="svg-theme-background" d="M128.346 57.0257V13.8378H70.9189V57.0257H128.346Z"/>
@@ -168,7 +168,7 @@
     <svg
         v-else-if="icon==='building'"
         class="nav-logo" viewBox="0 0 455 549" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <g id="building">
+        <g id="building-svg">
             <g id="outline">
                 <path class="svg-theme-text" d="M446.567 57.5927C453.461 64.4437 455.57 73.1558 451.36 77.3929C447.149 81.63 438.424 79.5763 431.53 72.7253L382.284 23.7899C375.389 16.9389 373.28 8.22683 377.491 3.98971C381.701 -0.247415 390.426 1.80632 397.321 8.65728L446.567 57.5927Z"/>
                 <path class="svg-theme-text" d="M22.5918 78.7832C16.6637 86.4856 8.28666 89.6749 3.55298 86.0317C-1.18069 82.3885 -0.242228 73.474 5.68585 65.7716L48.0292 10.7545C53.9573 3.05211 62.3344 -0.137242 67.0681 3.50598C71.8017 7.1492 70.8633 16.0636 64.9352 23.766L22.5918 78.7832Z"/>
