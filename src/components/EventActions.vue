@@ -63,15 +63,15 @@ export default {
 <style lang="css" scoped>
 .liked {
 	fill: #e0245e !important;
-	transition: fill 1s;
+	transition: fill 0.5s;
 }
 .retweeted {
 	fill: #17bf63 !important;
-	transition: fill 1s;
+	transition: fill 0.5s;
 }
 .commented {
 	fill: #1da1f2 !important;
-	transition: fill 1s;
+	transition: fill 0.5s;
 }
 .event-action-container {
 	display: flex;
