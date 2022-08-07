@@ -11,22 +11,22 @@ export default {
   },
   avatar: {
     img: "balaji-pic",
-    followUrl: 'https://twitter.com/intent/follow?screen_name=balajisv_'
+    followUrl: 'https://twitter.com/intent/follow?screen_name=_balajisv_'
   },
   profile: {
     name: 'Balaji Saravanan',
-    handle: '@balajisv_',
+    handle: '@_balajisv_',
     desc: 'Software Engineer @ Zoho | Front-end developer | Vue JS enthusiast | Blogger | Orator',
     location: 'Coimbatore, India',
-    linkName: 'Balaji SV',
+    linkName: 'Resume',
     link: 'https://drive.google.com/file/d/1pHXb4El1q4H13CxqdCaSTe-BlX-TmsSx/view?usp=sharing',
     date: 'Feb 12'
   },
   profileHandler: {
     name: 'Balaji Saravanan',
-    handle: '@balajisv_',
+    handle: '@_balajisv_',
     image: 'balaji-pic-mini',
-    url: 'https://twitter.com/balajisv_'
+    url: 'https://twitter.com/_balajisv_'
   },
   tweets: [{
       id: 'about',
@@ -257,7 +257,7 @@ export default {
     href: 'https://www.linkedin.com/in/balaji-saravanan/',
     logo: 'linkedin'
   }, {
-    href: 'https://twitter.com/balajisv_/',
+    href: 'https://twitter.com/_balajisv_/',
     logo: 'twitter'
   }, {
     href: 'mailto:balajilitsv@gmail.com',
