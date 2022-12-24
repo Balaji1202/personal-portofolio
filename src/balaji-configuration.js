@@ -18,7 +18,7 @@ export default {
     handle: '@heybalajisv',
     desc: 'Software Engineer @ Zoho | Front-end developer | Vue JS enthusiast | Blogger | Orator',
     location: 'Coimbatore, India',
-    linkName: 'Resume',
+    linkName: 'Bio links',
     link: 'https://balajisv.bio.link/',
     date: 'Feb 12'
   },
