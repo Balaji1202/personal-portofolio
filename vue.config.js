@@ -1,8 +1,8 @@
 module.exports = {
   configureWebpack: {
-    entry: './src/zoho-main.js',
+    entry: './src/balaji-main.js',
     output: {
-      filename: 'js/zoho.vue.js',
+      filename: 'js/balaji.vue.js',
       chunkFilename: 'js/[name].js'
     }
   },
